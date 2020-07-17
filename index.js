@@ -47,7 +47,50 @@ app.get("/thanh-pho/:id",function (req,res) {
         city:city
     });
 })
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT,function () {
     console.log("server is running...");
 });
+
+app.get("api/messages",function (req,res) {
+    let data = [
+        {
+            msg: "hello",
+            name: "Luna"
+        },
+        {
+            msg: "hello",
+            name: "Luna"
+        },
+        {
+            msg: "hello",
+            name: "Luna"
+        },
+        {
+            msg: "hello",
+            name: "Luna"
+        },
+    ];
+    let rs = {
+        status: true,
+        message: "Success",
+        data:data
+    };
+    res.send(rs);
+});
+
+//Thêm file
+
+app.get("/",function (req,res) {
+    let Home = req.query.trangchu;
+    res.render("Home",{
+        counter: counter,
+        city:city
+    });
+});
+app.get("/tuan-son",function (req,res) {
+    let PaceOneId = req.params.id;
+    let PaceOne = {};
+    res.render("PaceOne");
+})
