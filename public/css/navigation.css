@@ -1,0 +1,10 @@
+.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top {
+    background-color: #FFFFFF !important;
+}
+.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top li a{
+    color: #171717 !important;
+}
+.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top li a:hover{
+    color: #171717 !important;
+    opacity: 0.3;
+}

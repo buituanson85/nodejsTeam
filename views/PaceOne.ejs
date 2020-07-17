@@ -1,0 +1,2140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PaceOne</title>
+<link rel="stylesheet" type="text/css" href="css/PaceOne.css"/>
+<link rel="stylesheet" type="text/css" href="css/MediaPaceOne.css"/>
+<link href="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script rel="stylesheet" type="text/javascript" src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script rel="stylesheet" type="text/javascript" src="libs/bootstrap4/js4/bootstrap4js.js"></script>
+<link rel="stylesheet" type="text/css" href="libs/bootstrap4/css4/bootstrap4css.css"/>
+</head>
+<body>
+<!--        Phần 1     -->
+<section class="section">
+<div class="container-fluid list_case">
+<div class="d-flex">
+<div class="row">
+<div class="col-auto watch"><a class="notamenu" href="#"><span class="watch_watch">watchs</span></a></div>
+</div>
+<div class="row">
+<div class="col-auto icon"><span><i class='fas'>&#xf105;</i></span></div>
+</div>
+<div class="row">
+<div class="col-auto find">find your hublot</div>
+</div>
+</div>
+</div>
+</section>
+
+<!--    Phần 2   -->
+
+<section class="section_find">
+<div class="container-find">
+<div class="container-find-left">
+<span class="container-find-left-span">426 models</span>
+</div>
+<div class="container-find-right">
+<button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+<a class="container-find-right_a" href="#" data-toggle="tooltip" data-placement="bottom" title="Choose sizes,colurs and styles to find the right watch for you"><span class="container-find-right_a_span">filters</span></a>
+</button>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="modal-title findclear" id="exampleModalLabel">
+                <span class="find_clear"><a class="notamenu" href="#">Clear all</a></span>
+                <span class="find_fil">FILTERS</span>
+            </span>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-body-span-header">
+                <span class="modal-body-span-header-span">by design</span>
+            </div>
+<!--                gender     -->
+            <div class="modal-body-span-btn">
+                <a class="btn" data-toggle="collapse" data-target="#demo-gender"><span class="btn-gender-span">GENDER</span></a>
+                <div id="demo-gender" class="collapse show">
+                    <div class="modal-body-gender-menu">
+                        <div class="filterbox collection-menu">
+                            <div class="filter-nav">
+                                <button type="button" class="btn-gender btn-secondary" data-filter="men">men</button>
+                                <button type="button" class="btn-gender btn-secondary" data-filter="unisex">unisex</button>
+                                <button type="button" class="btn-gender btn-secondary" data-filter="women">women</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="">
+<!--                case    -->
+            <div class="modal-body-span-btn">
+                <a class="btn" data-toggle="collapse" data-target="#demo-case"><span class="btn-case-span">case</span></a>
+                <div id="demo-case" class="collapse show">
+<!--                    dong 1    -->
+                    <div class="modal-body-case-menu">
+                        <div class="modal-body-case-menu-one">
+                                <a class="notamenu case" href="#">
+                                    <img class="img-fluid avatar" src="img/background%20aluminium.jpg" alt="proje">
+                                </a>
+                                <a href="#" class="notamenu case-sp"><span class="case-span">aluminum</span></a>
+                        </div>
+                        <div class="modal-body-case-menu-two">
+                                <a class="notamenu case" href="#">
+                                    <img class="img-fluid avatar" src="img/background-bronze.jpg" alt="proje">
+                                </a>
+                                <a href="#" class="notamenu case-sp"><span class="case-span">bronze</span></a>
+                        </div>
+                        <div class="modal-body-case-menu-thre">
+                                <a class="notamenu case" href="#">
+                                    <img class="img-fluid avatar" src="img/carbon%20background.jpg" alt="proje">
+                                </a>
+                                <a href="#" class="notamenu case-sp"><span class="case-span">carbon</span></a>
+                        </div>
+                    </div>
+                    <div class="modal-body-case-menu">
+                        <div class="modal-body-case-menu-one">
+                            <a class="notamenu case" href="#">
+                                <img class="img-fluid avatar" src="img/background-ceramic.jpg" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu case-sp"><span class="case-span">ceramic</span></a>
+                        </div>
+                        <div class="modal-body-case-menu-two">
+                            <a class="notamenu case" href="#">
+                                <img class="img-fluid avatar" src="img/rosegold.jfif" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu case-sp"><span class="case-span">gold</span></a>
+                        </div>
+                        <div class="modal-body-case-menu-thre">
+                            <a class="notamenu case" href="#">
+                                <img class="img-fluid avatar" src="img/king%20goll%20backgrou.png" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu case-sp"><span class="case-span">king gold</span></a>
+                        </div>
+                    </div>
+                    <div class="modal-body-case-menu">
+                        <div class="modal-body-case-menu-one">
+                            <a class="notamenu case" href="#">
+                                <img class="img-fluid avatar" src="img/magicgold.jpg" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu case-sp"><span class="case-span">magic gold</span></a>
+                        </div>
+                        <div class="modal-body-case-menu-two">
+                            <a class="notamenu case" href="#">
+                                <img class="img-fluid avatar" src="img/shaphie.jpg" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu case-sp"><span class="case-span">sapphire</span></a>
+                        </div>
+                        <div class="modal-body-case-menu-thre">
+                            <a class="notamenu case" href="#">
+                                <img class="img-fluid avatar" src="img/steel.jpg" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu case-sp"><span class="case-span">steel</span></a>
+                        </div>
+                    </div>
+                    <div class="modal-body-case-menu">
+                        <div class="modal-body-case-menu-one">
+                            <a class="notamenu case" href="#">
+                                <img class="img-fluid avatar" src="img/titanium.jpg" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu case-sp"><span class="case-span">titanium</span></a>
+                        </div>
+                        <div class="modal-body-case-menu-two">
+                            <a class="notamenu case" href="#">
+                                <img class="img-fluid avatar" src="img/whilegold.jfif" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu case-sp"><span class="case-span">while gold</span></a>
+                        </div>
+                        <div class="modal-body-case-menu-thre"></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+<!--          size   -->
+            <div class="modal-body-span-btn">
+                <a class="btn" data-toggle="collapse" data-target="#demo-size"><span class="btn-size-span">size</span></a>
+                <div id="demo-size" class="collapse show">
+                    <div class="modal-body-size-menu">
+                        <div class="filterbox collection-menu">
+                            <div class="filter-nav">
+                                <button type="button" class="btn-size btn-secondary" data-filter="33mm"><span class="modal-body-size-menu-span">33mm</span></button>
+                                <button type="button" class="btn-size btn-secondary" data-filter="38mm"><span class="modal-body-size-menu-span">38mm</span></button>
+                                <button type="button" class="btn-size btn-secondary" data-filter="39mm"><span class="modal-body-size-menu-span">39mm</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body-size-menu">
+                        <div class="filterbox collection-menu">
+                            <div class="filter-nav">
+                                <button type="button" class="btn-size btn-secondary" data-filter="40mm"><span class="modal-body-size-menu-span">40mm</span></button>
+                                <button type="button" class="btn-size btn-secondary" data-filter="41mm"><span class="modal-body-size-menu-span">41mm</span></button>
+                                <button type="button" class="btn-size btn-secondary" data-filter="42mm"><span class="modal-body-size-menu-span">42mm</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body-size-menu">
+                        <div class="filterbox collection-menu">
+                            <div class="filter-nav">
+                                <button type="button" class="btn-size btn-secondary" data-filter="44mm"><span class="modal-body-size-menu-span">44mm</span></button>
+                                <button type="button" class="btn-size btn-secondary" data-filter="45mm"><span class="modal-body-size-menu-span">45mm</span></button>
+                                <button type="button" class="btn-size btn-secondary" data-filter="49mm"><span class="modal-body-size-menu-span">49mm</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+<!--  color    -->
+            <div class="modal-body-span-btn">
+                <a class="btn" data-toggle="collapse" data-target="#demo-color"><span class="btn-color">color</span></a>
+                <div id="demo-color" class="collapse show">
+                    <div class="modal-body-color-menu">
+                        <div class="modal-body-color-menu-one">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/black.jpg" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">black</span></a>
+                        </div>
+                        <div class="modal-body-color-menu-two">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/blue.png" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">blue</span></a>
+                        </div>
+                        <div class="modal-body-color-menu-thre">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/brouw.jfif" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">brown</span></a>
+                        </div>
+                    </div>
+                    <div class="modal-body-color-menu">
+                        <div class="modal-body-color-menu-one">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/gray.jpg" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">gray</span></a>
+                        </div>
+                        <div class="modal-body-color-menu-two">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/green.jfif" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">green</span></a>
+                        </div>
+                        <div class="modal-body-color-menu-thre">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/orange.png" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">orange</span></a>
+                        </div>
+                    </div>
+                    <div class="modal-body-color-menu">
+                        <div class="modal-body-color-menu-one">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/pink.jfif" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">pink</span></a>
+                        </div>
+                        <div class="modal-body-color-menu-two">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/puprle.jpg" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">purple</span></a>
+                        </div>
+                        <div class="modal-body-color-menu-thre">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/red.jfif" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">red</span></a>
+                        </div>
+                    </div>
+                    <div class="modal-body-color-menu">
+                        <div class="modal-body-color-menu-one">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar while" src="img/while.jpg" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">while</span></a>
+                        </div>
+                        <div class="modal-body-color-menu-two">
+                            <a class="notamenu color" href="#">
+                                <img class="img-fluid avatar" src="img/yellow.jfif" alt="proje">
+                            </a>
+                            <a href="#" class="notamenu color-sp"><span class="color-span">yellow</span></a>
+                        </div>
+                        <div class="modal-body-color-menu-thre"></div>
+                    </div>
+                </div>
+            </div>
+                <hr>
+            <div class="modal-body-span-header">
+                <span class="modal-body-span-header-span">BY SPECIFICATION</span>
+            </div>
+            <div class="modal-body-span-new">
+                <span>new</span>
+            </div>
+            <div class="modal-body-span-btn collection">
+                <a class="btn" data-toggle="collapse" data-target="#demo-collection"><span class="btn-collection-span">COLLECTION</span></a>
+                <div id="demo-collection" class="collapse show">
+                            <div class="filterbox collection-menu">
+                                <div class="filter-nav">
+                                    <button type="button" class="btn-collection btn-secondary" data-filter="roads">Big Bang</button>
+                                    <button type="button" class="btn-collection btn-secondary" data-filter="mountains">classic fusion</button>
+                                    <button type="button" class="btn-collection btn-secondary" data-filter="cars">MP</button>
+                                    <button type="button" class="btn-collection btn-secondary" data-filter="sky">SPIRIT OF BIG BANG</button>
+                                </div>
+                            </div>
+                </div>
+            </div>
+<!--            <script type="text/javascript">-->
+<!--                $(document).ready(function(){-->
+<!--                    $('.btn-collection.btn-secondary').click(function(){-->
+<!--                        var buttonvalue = $(this).attr('data-filter');-->
+
+<!--                        if(buttonvalue == 'all'){-->
+<!--                            $('.image-filter').show('1000');-->
+<!--                        }-->
+<!--                        else{-->
+<!--                            $('.image-filter').not('.'+buttonvalue).hide('200');-->
+<!--                            $('.image-filter').filter('.'+buttonvalue).show('200');-->
+<!--                        }-->
+<!--                        $(this).addClass('active').siblings().removeClass('active');-->
+<!--                    });-->
+<!--                });-->
+<!--            </script>-->
+            <hr>
+<!--            watch type   -->
+            <div class="modal-body-span-btn">
+                <a class="btn" data-toggle="collapse" data-target="#demo-type"><span class="btn-size-span">watch type</span></a>
+                <div id="demo-type" class="collapse show">
+                    <div class="modal-body-type-menu">
+                        <div class="modal-body-type-menu-one"><a class="notamenu type" href="#"><span class="modal-body-type-menu-span">3-HANDS</span></a></div>
+                        <div class="modal-body-type-menu-two"><a class="notamenu type" href="#"><span class="modal-body-type-menu-span">CHRONOGRAPH</span></a></div>
+                    </div>
+                    <div class="modal-body-type-menu">
+                        <div class="modal-body-type-menu-one"><a class="notamenu type" href="#"><span class="modal-body-type-menu-span">gmt</span></a></div>
+                        <div class="modal-body-type-menu-two"><a class="notamenu type" href="#"><span class="modal-body-type-menu-span">moonphase</span></a></div>
+                    </div>
+                    <div class="modal-body-type-menu">
+                        <div class="modal-body-type-menu-one"><a class="notamenu type" href="#"><span class="modal-body-type-menu-span">golf</span></a></div>
+                        <div class="modal-body-type-menu-two"><a class="notamenu type" href="#"><span class="modal-body-type-menu-span">TOURBILLON</span></a></div>
+                    </div>
+                    <div class="modal-body-type-menu">
+                        <div class="modal-body-type-menu-one"><a class="notamenu type" href="#"><span class="modal-body-type-menu-span">HIGH POWER RESERVE</span></a></div>
+                        <div class="modal-body-type-menu-two"><a class="notamenu type" href="#"><span class="modal-body-type-menu-span">HIGH JEWELLERY</span></a></div>
+                    </div>
+                    <div class="modal-body-type-menu">
+                        <div class="modal-body-type-menu-one"><a class="notamenu type" href="#"><span class="modal-body-type-menu-span">PARTNERSHIPS</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="notamenu" href="#"><div class="modal-footer foodeer">
+            <span class="foodeer-span">see 426 watches</span>
+        </div>
+        </a>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--    Phần 3   -->
+<section class="section find_h1p">
+<div class="container-fluid text-center">
+<div class="find_h1p_1">
+<div class="col-12">
+<h1 class="h1_find">FIND YOUR HUBLOT</h1>
+</div>
+<div class="col-12 span_1">
+<p class="p_find">Explore all of our unique range of watches to find the perfect</p>
+</div>
+<div class="col-12 span_2">
+<p class="p_find">Hublot for you.</p>
+</div>
+<div class="col-12 span_0">
+<p class="p_find">
+    Explore all of our unique range of watches to find the perfect Hublot for you.
+</p>
+</div>
+</div>
+</div>
+</section>
+<!--    Phần 40      -->
+<section class="section menu-box">
+    <div class="container-fluid">
+        <div class="filterbox">
+            <div class="filter-nav" id="filter-nav">
+                <button class="btn btn-secondary active" data-filter="all">All</button>
+                <button type="button" class="btn btn-secondary" data-filter="roads">Big Bang</button>
+                <button type="button" class="btn btn-secondary" data-filter="mountains">classic fusion</button>
+                <button type="button" class="btn btn-secondary" data-filter="sky">SPIRIT OF BIG BANG</button>
+                <button type="button" class="btn btn-secondary" data-filter="cars">MP</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--    Phần 41      -->
+<section class="section main">
+<!--        <div class="imgbox">-->
+            <!--    Phần 41      -->
+            <section class="image-filter roads">
+                <div class="container-fluid bigbang_1">
+                    <div class="d-flex bigbang_2">
+                        <div class="col-12 abc">
+                            <span class="span_bigbang">big bang</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--    Phần   51      -->
+            <section class="image-filter  roads">
+                <div class="container-fluid tempbig">
+
+                    <!--           bắt đầu hàng 1   -->
+
+                    <div class="container-bigbang ">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau anh-dau">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-millennial-pink-soldier-11.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">millennial pink 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 19,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-blue-sapphire-45-mm-new2.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico blue sapphire 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 80,000 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau anh-ba">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-red-sapphire-45-mm-new1.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico red sapphire 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 70,00 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau anh-bon">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-integral-titanium-42-mm-14.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">integral titanium 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 19,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 1-->
+                    <!--bắt đầu hàng 2-->
+                    <div class="container-bigbang">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-integral-king-gold-21.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">integral king gold 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 49,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-integral-all-black-22.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">integral all black 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 21,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                               <div class="row">
+                                   <div class="menu-bigbang">
+                                       <a class="notamenu" href="#">
+                                           <div class="menu-img left-images">
+                                               <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-integral-titanium-pave-23.png" alt="big1"/>
+                                           </div>
+                                           <div class="menu-brand">
+                                               <span class="menu-brand-span">big bang</span>
+                                           </div>
+                                           <div class="menu-name">
+                                               <span class="menu-name-span">integral titanium pave 42mm</span>
+                                           </div>
+                                           <div class="space-big"> </div>
+                                           <div class="menu-monny">
+                                               <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 65,000 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                           </div>
+                                           <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                           <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                       </a>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-integral-king-gold-pave-24.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">integral king gold pave 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 95,000 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 2-->
+                    <!--bắt đầu hàng 3-->
+                    <div class="container-bigbang">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-titanium-45-mm-31.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico titanium 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 17,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-titanium-blue-45-mm-32.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico titanium blue 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 17,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang unico-45">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-titanium-ceramic-45-mm-33.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico titanium ceramic 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 18,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang unico-king-gold">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-king-gold-blue-45-mm-41.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico king gold 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 37,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 3-->
+                    <!--bắt đầu hàng 4-->
+                    <div class="container-bigbang">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang king-gold-45">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-king-gold-45-mm-34.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico king gold blue 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 37,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang ceramic-45">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-titanium-ceramic-45-mm-42.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico titanium ceramic 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 34,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-black-magic-45-mm-43.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico black magic 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 18,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-magic-gold-45-mm-44.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico magic gold 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 22,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 4-->
+                    <!--bắt đầu hàng 5-->
+                    <div class="container-bigbang">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-white-ceramic-45-mm-411.51.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico white ceramic 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 18,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-magic-sapphire-45-mm-52.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico magic sapphire 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 55,000 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-rainbow-king-gold-45-mm-55.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico rainbow king gold 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 87,000 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-unico-yellow-sapphire-42-mm-56.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">big bang</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">unico yellow sapphire 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 90,000 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!--kết thúc hàng 5-->
+                <div class="container-fluid viewmore">
+                    <a class="a_loadmore" href="#" id="loadMore">
+                        <div class="loadmore_span"><span class="loadmore_span_span">view more</span></div>
+                        <div class="loadmore-space"><span class="loadmore-space-span"></span></div>
+                    </a>
+                    <a onclick="topFunction()" id="myBtnloadmore" title="Go to top"><i class='fas icon-arrow'>&#xf0aa;</i></a>
+
+
+                    <script type="text/javascript">
+                        $(function () {
+                            $(".container-bigbang").slice(0, 2).show();
+                            $("#loadMore").on('click', function (e) {
+                                e.preventDefault();
+                                $(".container-bigbang:hidden").slice(0, 2).slideDown();
+                                if ($(".container-bigbang:hidden").length == 0) {
+                                    $("#load").fadeOut('slow');
+                                }
+                            });
+                        });
+                        var mybutton = document.getElementById("myBtnloadmore");
+                        window.onscroll = function() {scrollFunction()};
+                        function scrollFunction() {
+                            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                mybutton.style.display = "block";
+                            } else {
+                                mybutton.style.display = "none";
+                            }
+                        }
+
+                        // When the user clicks on the button, scroll to the top of the document
+                        function topFunction() {
+                            document.body.scrollTop = 0;
+                            document.documentElement.scrollTop = 0;
+                        }
+                    </script>
+                </div>
+            </section>
+
+            <!--    Phần 42      -->
+            <section class="image-filter mountains">
+                <div class="container-fluid bigbang_1">
+                    <div class="d-flex bigbang_2">
+                        <div class="col-12 abc">
+                            <span class="span_bigbang">CLASSIC FUSION</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--    Phần   52      -->
+            <section class="image-filter  mountains">
+                <div class="container-fluid tempbig">
+
+                    <!--           bắt đầu hàng 1   -->
+                    <div class="container-classicfusion">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau anh-dau">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/Classic-Fusion-Titanium-on-Rubber-42-mm_12.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">Classic Fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">Titanium on Rubber 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 6,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon anh-dau"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau Rubber-42">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/Classic-Fusion-Titanium-on-Rubber-42-mm_12.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">Classic Fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">Titanium on Rubber 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 6,400 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau Fusion-Titanium">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/Classic-Fusion-Titanium-on-Rubber-42-mm_12.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">Classic Fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">Titanium on Rubber 38 mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 5,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau anh-bon on-Rubber">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/Classic-Fusion-Titanium-on-Rubber-33-mm-14.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">Classic Fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">Titanium on Rubber 33 mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 4,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 1-->
+                    <!--bắt đầu hàng 2-->
+                    <div class="container-classicfusion">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-45-mm-21.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 7,300 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-42-mm-22.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">fusion titanium 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 6,800 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-38-mm-23.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium 38mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 6,300 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-33-mm-24.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium 33mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 5,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 2-->
+                    <!--bắt đầu hàng 3-->
+                    <div class="container-classicfusion">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-opalin-45-mm-31.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium opalin 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 7,300 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-opalin-42-mm-32.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium opalin 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 3,800 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-opalin-38-mm-33.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">utitanium opalin 38mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 6,300 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-opalin-33-mm-34.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium opalin 33mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 5,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 3-->
+                    <!--bắt đầu hàng 4-->
+                    <div class="container-classicfusion">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-blue-45-mm-41.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium blue 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 7,300 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-blue-42-mm-42.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium blue 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 6,800 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-blue-38-mm-43.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium blue 38mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 18,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-blue-33-mm-44.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium blue 33 mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 22,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 4-->
+                    <!--bắt đầu hàng 5-->
+                    <div class="container-classicfusion">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-green-45-mm-51.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">fusion titanium green 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 7,300 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-green-42-mm-52.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium green 42mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 6,800 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-green-38-mm-53.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium green 38mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 6,300 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/classic-fusion-titanium-green-33-mm-54.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">classic fusion</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">titanium green 33 mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 5,300 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 5-->
+                </div>
+                <div class="container-fluid">
+                    <a class="a_loadmore" href="#" id="loadMore-fusion">
+                        <div class="loadmore_span"><span class="loadmore_span_span">view more</span></div>
+                        <div class="loadmore-space"><span class="loadmore-space-span"></span></div>
+                    </a>
+
+                    <script type="text/javascript">
+                        $(function () {
+                            $(".container-classicfusion").slice(0, 2).show();
+                            $("#loadMore-fusion").on('click', function (e) {
+                                e.preventDefault();
+                                $(".container-classicfusion:hidden").slice(0, 2).slideDown();
+                                if ($(".container-classicfusion:hidden").length == 0) {
+                                    $("#load").fadeOut('slow');
+                                }
+                                $('html,body').animate({
+                                    scrollTop: $(this).offset().top
+                                }, 1500);
+                            });
+                        });
+
+                        $('a[href=#top]').click(function () {
+                            $('body,html').animate({
+                                scrollTop: 0
+                            }, 600);
+                            return false;
+                        });
+
+                        $(window).scroll(function () {
+                            if ($(this).scrollTop() > 50) {
+                                $('.totop a').fadeIn();
+                            } else {
+                                $('.totop a').fadeOut();
+                            }
+                        });
+                    </script>
+                </div>
+            </section>
+
+<!--            <div class="image-filter sky">-->
+                <!--    Phần 43     -->
+                <section class="image-filter sky">
+                    <div class="container-fluid bigbang_1">
+                        <div class="d-flex bigbang_2">
+                            <div class="col-12 abc">
+                                <span class="span_bigbang">SPIRIT OF BIG BANG</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--    Phần   53      -->
+                <section class="image-filter sky">
+                    <div class="container-fluid tempbig">
+
+                        <!--           bắt đầu hàng 1   -->
+                        <div class="container-spirit">
+                            <div class="row p5">
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang hang-dau anh-dau">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-titanium-45-mm-11.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">titanium 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 20,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang hang-dau">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-light-blue-ceramic-titanium-diamonds-39-mm-1new.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">light blue diamonds 39mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 18,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang hang-dau anh-ba">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-titanium-blue-45-mm-13.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">titanium blue 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 20,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang hang-dau anh-bon">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-light-blue-ceramic-king-gold-diamonds-39-mm-2new.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">light blue diamonds 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 22,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--kết thúc hàng 1-->
+                        <!--bắt đầu hàng 2-->
+                        <div class="container-spirit">
+                            <div class="row p5">
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-titanium-ceramic-45-mm-15.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">titanium ceramic 45 mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 21,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-pink-ceramic-titanium-diamonds-39-mm-3new.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">pink titanium diamonds 39mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 18,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang king-45">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/king%20gold%2045mm%2017.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">king gold 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 40,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-pink-ceramic-king-gold-diamonds-39-mm-4new.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">pink ceramic diamonds 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 22,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--kết thúc hàng 2-->
+                        <!--bắt đầu hàng 3-->
+                        <div class="container-spirit">
+                            <div class="row p5">
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-king-gold-blue-45-mm-31.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">king gold blue 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 40,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                   <div class="row">
+                                       <div class="menu-bigbang king-blue">
+                                           <a class="notamenu" href="#">
+                                               <div class="menu-img left-images">
+                                                   <img class="img-fluid zoom-hulot image-hulot" src="img/king%20gold%20blue%2042mm%2032.png" alt="big1"/>
+                                               </div>
+                                               <div class="menu-brand">
+                                                   <span class="menu-brand-span">spirit of big bang</span>
+                                               </div>
+                                               <div class="menu-name">
+                                                   <span class="menu-name-span">king gold blue 42mm</span>
+                                               </div>
+                                               <div class="space-big"> </div>
+                                               <div class="menu-monny">
+                                                   <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 38,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                               </div>
+                                               <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                               <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                           </a>
+                                       </div>
+                                   </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-king-gold-ceramic-45-mm-33.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">king gold ceramic 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 37,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-king-gold-ceramic-42-mm-34.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">king gold ceramic 42mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 35,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--kết thúc hàng 3-->
+                        <!--bắt đầu hàng 4-->
+                        <div class="container-spirit">
+                            <div class="row p5">
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-full-magic-gold-45-mm-41.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">full magic gold 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 36,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-black-magic-45-mm-42.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">black magic 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 24,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-black-magic-42-mm-43.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">black magic 42mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 18,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-ceramic-blue-45-mm-44.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">ceramic blue 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 25,300 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--kết thúc hàng 4-->
+                        <!--bắt đầu hàng 5-->
+                        <div class="container-spirit">
+                            <div class="row p5">
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-titanium-42-mm-12.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">titanium 42mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 36,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-titanium-blue-42-mm-14.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">titanium blue 42mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 6,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-titanium-ceramic-42-mm-16.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">titanium ceramic 42mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 18,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 team-team">
+                                    <div class="row">
+                                        <div class="menu-bigbang">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/spirit-of-big-bang-king-gold-42-mm-18.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">spirit of big bang</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">king gold 42mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 38,900 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                        <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--kết thúc hàng 5-->
+                    </div>
+                    <div class="container-fluid">
+                        <a class="a_loadmore" href="#" id="loadMore-spirit">
+                            <div class="loadmore_span"><span class="loadmore_span_span">view more</span></div>
+                            <div class="loadmore-space"><span class="loadmore-space-span"></span></div>
+                        </a>
+
+                        <script type="text/javascript">
+                            $(function () {
+                                $(".container-spirit").slice(0, 2).show();
+                                $("#loadMore-spirit").on('click', function (e) {
+                                    e.preventDefault();
+                                    $(".container-spirit:hidden").slice(0, 2).slideDown();
+                                    if ($(".container-spirit:hidden").length == 0) {
+                                        $("#load").fadeOut('slow');
+                                    }
+                                    $('html,body').animate({
+                                        scrollTop: $(this).offset().top
+                                    }, 1500);
+                                });
+                            });
+
+                            $('a[href=#top]').click(function () {
+                                $('body,html').animate({
+                                    scrollTop: 0
+                                }, 600);
+                                return false;
+                            });
+
+                            $(window).scroll(function () {
+                                if ($(this).scrollTop() > 50) {
+                                    $('.totop a').fadeIn();
+                                } else {
+                                    $('.totop a').fadeOut();
+                                }
+                            });
+                        </script>
+                    </div>
+                </section>
+<!--            </div>-->
+            <!--    Phần 44     -->
+            <section class="image-filter cars">
+                <div class="container-fluid bigbang_1">
+                    <div class="d-flex bigbang_2">
+                        <div class="col-12 abc">
+                            <span class="span_bigbang">mp</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--    Phần   54      -->
+            <section class="image-filter cars">
+                <div class="container-fluid tempbig">
+                    <!--           bắt đầu hàng 1   -->
+                    <div class="container-mp">
+                        <div class="row p5">
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/techframe-ferrari-tourbillon-chronograph-sapphire-white-gold-45-mm-11.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">mp</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">techframe ferrari tourbillon sapphire white gold 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 170,000 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                        <div class="menu-bigbang hang-dau">
+                                            <a class="notamenu" href="#">
+                                                <div class="menu-img left-images">
+                                                    <img class="img-fluid zoom-hulot image-hulot" src="img/techframe-ferrari-tourbillon-chronograph-carbon-yellow-45-mm-12.png" alt="big1"/>
+                                                </div>
+                                                <div class="menu-brand">
+                                                    <span class="menu-brand-span">mp</span>
+                                                </div>
+                                                <div class="menu-name">
+                                                    <span class="menu-name-span">techframe ferrari tourbillon carbon yellow 45mm</span>
+                                                </div>
+                                                <div class="space-big"> </div>
+                                                <div class="menu-monny">
+                                                    <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 130,000 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                                </div>
+                                                <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                                <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team">
+                                <div class="row">
+                                    <div class="menu-bigbang hang-dau anh-ba">
+                                        <a class="notamenu" href="#">
+                                            <div class="menu-img left-images">
+                                                <img class="img-fluid zoom-hulot image-hulot" src="img/big-bang-mp-09-tourbillon-bi-axis-3d-carbon-45-mm-13.png" alt="big1"/>
+                                            </div>
+                                            <div class="menu-brand">
+                                                <span class="menu-brand-span">mp</span>
+                                            </div>
+                                            <div class="menu-name">
+                                                <span class="menu-name-span">mp 09 tourbillon bi axis 3d carbon 45mm</span>
+                                            </div>
+                                            <div class="space-big"> </div>
+                                            <div class="menu-monny">
+                                                <a class="notamenu" href="#" data-toggle="tooltip" data-placement="top" title="Suggested retail prince (Switzerland,VAT included)"><span class="menu-monny-span">chf 180,000 <sup><i class="fa icon-monny">&#xf111;</i></sup></span></a>
+                                            </div>
+                                            <div class="menu-icon"><a class="notamenu" href="#"><i class="fa icon-menu">&#xf08a;</i></a></div>
+                                            <!--                            <div class="menu-span-2"><span class="menu-span-2-span">new</span></div>-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 team-team-none"></div>
+                        </div>
+                    </div>
+                    <!--kết thúc hàng 1-->
+                </div>
+            </section>
+<!--        </div>-->
+</section>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.btn.btn-secondary').click(function(){
+            var buttonvalue = $(this).attr('data-filter');
+
+            if(buttonvalue == 'all'){
+                $('.image-filter').show('1000');
+            }
+            else{
+                $('.image-filter').not('.'+buttonvalue).hide('200');
+                $('.image-filter').filter('.'+buttonvalue).show('200');
+            }
+            $(this).addClass('active').siblings().removeClass('active');
+        });
+    });
+</script>
+
+<!--kết thúc thẻ fooder-->
+<%- include("fooder") %>
+</body>
+</html>

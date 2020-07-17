@@ -1,0 +1,1109 @@
+
+.img_icon{
+    display: none;
+}
+.col-auto.img_icon{
+    width: 0;
+}
+
+/*     175%      */
+@media (max-width: 992px) {
+    /*   phần một   */
+    .watch,
+    .find,
+    .icon{
+        font-size: 1vw;
+    }
+    /*          Phần 2     */
+    .container-find-left-span,
+    .container-find-right_a_span{
+        font-size: 1vw;
+    }
+    .container-find-left{
+        width: 65%;
+        border-right: 0.1vw solid #cccccc;
+        text-align: center;
+    }
+    .container-find-right{
+        width: 35%;
+    }
+    /*  modal phần 2  */
+    .find_clear{
+        font-size: 1vw;
+    }
+    .find_fil{
+        font-size: 1.2vw;
+    }
+    .modal-body-span-header-span{
+        font-size: 2vw !important;
+    }
+    .modal-body-span-header{
+        font-size: 2vw !important;
+    }
+    .btn-gender{
+        font-size: 1.2vw;
+    }
+    .modal-body-gender-menu-span{
+        font-size: 0.9vw;
+    }
+    .case-span{
+        font-size: 0.9vw;
+    }
+    .img-fluid.avatar{
+        width: 4vw;
+        height: 4vw;
+    }
+    .btn-size{
+        font-size: 1.2vw;
+    }
+    .modal-body-size-menu-span{
+        font-size: 0.9vw;
+    }
+    .btn-color{
+        font-size: 1.2vw;
+    }
+    .color-span{
+        font-size: 0.9vw;
+    }
+    .modal-body-span-new{
+        font-size: 1.5vw;
+    }
+    .btn-collection{
+        font-size: 1.2vw;
+    }
+    .modal-body-collection-menu-span{
+        font-size: 0.9vw;
+    }
+    .btn-size{
+        font-size: 1.2vw;
+    }
+    .modal-body-type-menu-span{
+        font-size: 1.1vw;
+    }
+    .foodeer-span{
+        font-size: 1.2vw;
+    }
+    .modal-body-collection-menu-one a{
+        padding: 1vw 2vw;
+        border: 0.1vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two a{
+        padding: 1vw 2vw;
+        border: 0.1vw solid #cccccc;
+    }
+    .modal-body-collection-menu-three a{
+        padding: 1vw 2vw;
+        border: 0.1vw solid #cccccc;
+    }
+    .modal-body-collection-menu-one-spirit a{
+        padding: 1vw 2vw;
+        border: 0.1vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two{
+        margin: 0 1vw;
+    }
+    /*    phần 3  */
+    .span_1,
+    .span_2{
+        display: none;
+    }
+    .span_0{
+        display: block;
+    }
+    .h1_find{
+        font-size: 3.5vw;
+    }
+    .p_find{
+        font-size: 1.4vw;
+    }
+    .find_h1p_1{
+        border-right: 0.1vw solid #cccccc;
+        border-left: 0.1vw solid #cccccc;
+    }
+    /*    phần 4 */
+    .bigbang_0{
+        border-top: 0.1vw solid #cccccc;
+        border-bottom: 0.1vw solid #cccccc;
+    }
+    .bigbang_2{
+        padding: 1.35vw 1.35vw;
+        border-right: 0.1vw solid #cccccc;
+        border-left: 0.1vw solid #cccccc;
+        text-align: center;
+    }
+    .span_bigbang{
+        font-size: 2vw;
+        margin: 0;
+    }
+/*     Phần 5    */
+/*    .team-team{*/
+/*        border: 0.1vw solid #cccccc;*/
+/*    }*/
+    .menu-span-2-span{
+        font-size: 1vw;
+        padding: 0.2vw 1.2vw;
+        border: 0.1vw solid red;
+    }
+    /*.menu-img img{*/
+    /*    width: 50%;*/
+    /*}*/
+    .menu-bigbang{
+        margin: 0 1.65vw 2.65vw 1.65vw;
+    }
+    .menu-bigbang.hang-dau{
+        margin-top: 2.65vw;
+    }
+    /*.col-6{*/
+    /*    padding: 0!important;*/
+    /*}*/
+    .img-fluid{
+        max-width: 65%!important;
+    }
+    .menu-brand-span{
+        font-size: 1.2vw;
+    }
+    .menu-name-span{
+        font-size: 1.5vw;
+    }
+    .space-big:after{
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 47.5%;
+        width: 5%;
+        height: 0.1vw;
+        border: 0.2vw solid red;
+    }
+    .menu-monny-span{
+        font-size: 1.3vw;
+    }
+    .fa.icon-monny{
+        font-size: 0.5vw;
+    }
+    .menu-icon{
+        text-align: center;
+    }
+    .fa.icon-menu{
+        font-size: 2vw;
+    }
+/*    loadmore   */
+    .loadmore_span{
+        padding: 6vw 0 4vw 0;
+    }
+    .loadmore_span_span{
+        font-size: 1.8vw;
+    }
+    .loadmore-space-span{
+        width: 5vw;
+        height: 5vw;
+    }
+    .loadmore-space-span:before{
+        position: absolute;
+        bottom: 2.5vw;
+        left: 1.25vw;
+        content: " ";
+        width: 2.5vw;
+        height: 0.1vw;
+        border: 0.05vw solid white;
+    }
+    .loadmore-space-span:after{
+        position: absolute;
+        bottom: 1.25vw;
+        left: 2.5vw;
+        content: " ";
+        width: 0.1vw;
+        height: 2.5vw;
+        border: 0.05vw solid white;
+    }
+    .fas.icon-arrow{
+        font-size: 3.5vw;
+    }
+    .btn-size-span,
+    .btn-case-span,
+    .btn-gender-span,
+    .btn-collection-span{
+        font-size: 1.3vw;
+    }
+}
+
+/*     200%      */
+@media (max-width: 768px) {
+    /*   phần một   */
+    .watch,
+    .find,
+    .icon{
+        font-size: 1.1vw;
+    }
+    /*          Phần 2     */
+    .section_find{
+        border-bottom: 0.15vw solid #cccccc;
+    }
+    .container-find-left-span,
+    .container-find-right_a_span{
+        font-size: 1.1vw;
+    }
+    .container-find-left{
+        width: 65%;
+        border-right: 0.15vw solid #cccccc;
+        text-align: center;
+    }
+    .container-find-right{
+        width: 35%;
+    }
+    /*  modal phần 2  */
+    .find_clear{
+        font-size: 1.3vw;
+    }
+    .find_fil{
+        font-size: 1.5vw;
+    }
+    .modal-body-span-header-span{
+        font-size: 2.3vw !important;
+    }
+    .modal-body-span-header{
+        font-size: 2.3vw !important;
+    }
+    .btn-gender{
+        font-size: 1.5vw;
+    }
+    .modal-body-gender-menu-span{
+        font-size: 1.2vw;
+    }
+    .case-span{
+        font-size: 1.2vw;
+    }
+    .img-fluid.avatar{
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+    .btn-size{
+        font-size: 1.5vw;
+    }
+    .modal-body-size-menu-span{
+        font-size: 1.2vw;
+    }
+    .btn-color{
+        font-size: 1.5vw;
+    }
+    .color-span{
+        font-size: 1.2vw;
+    }
+    .modal-body-span-new{
+        font-size: 1.7vw;
+    }
+    .btn-collection{
+        font-size: 1.5vw;
+    }
+    .modal-body-collection-menu-span{
+        font-size: 1.2vw;
+    }
+    .btn-size{
+        font-size: 1.5vw;
+    }
+    .modal-body-type-menu-span{
+        font-size: 1.5vw;
+    }
+    .foodeer-span{
+        font-size: 1.5vw;
+    }
+    .modal-body-collection-menu-one a{
+        padding: 1vw 2.5vw;
+        border: 0.1vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two a{
+        padding: 1vw 2.5vw;
+        border: 0.1vw solid #cccccc;
+    }
+    .modal-body-collection-menu-three a{
+        padding: 1vw 2.5vw;
+        border: 0.1vw solid #cccccc;
+    }
+    .modal-body-collection-menu-one-spirit a{
+        padding: 1vw 2.5vw;
+        border: 0.1vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two{
+        margin: 0 1.5vw;
+    }
+    /*    phần 3  */
+    .h1_find{
+        font-size: 3.8vw;
+    }
+    .p_find{
+        font-size: 1.6vw;
+    }
+    .find_h1p_1{
+        border-right: 0.15vw solid #cccccc;
+        border-left: 0.15vw solid #cccccc;
+    }
+
+    /*    phần 4  */
+    .bigbang_0{
+        border-top: 0.15vw solid #cccccc;
+        border-bottom: 0.15vw solid #cccccc;
+    }
+    .bigbang_2{
+        border-right: 0.15vw solid #cccccc;
+        border-left: 0.15vw solid #cccccc;
+        text-align: center;
+    }
+    .span_bigbang{
+        font-size: 2.5vw;
+    }
+
+    /*     Phần 5    */
+    .menu-span-2-span{
+        font-size: 1.5vw;
+        padding: 0.2vw 1.5vw;
+        border: 0.1vw solid red;
+    }
+    .menu-brand-span{
+        font-size: 1.5vw;
+    }
+    .menu-name-span{
+        font-size: 1.7vw;
+    }
+    .menu-monny-span{
+        font-size: 1.5vw;
+    }
+    .fa.icon-monny{
+        font-size: 0.7vw;
+    }
+    .menu-icon{
+        text-align: center;
+        padding-bottom: 2vw;
+    }
+    .fa.icon-menu{
+        font-size: 2.3vw;
+    }
+    .fas.icon-arrow{
+        font-size: 4vw;
+    }
+    .btn-size-span,
+    .btn-case-span,
+    .btn-gender-span,
+    .btn-collection-span{
+        font-size: 1.5vw;
+    }
+}
+/*     250%      */
+@media (max-width: 614px) {
+    /*   phần một   */
+    .watch,
+    .find,
+    .icon{
+        font-size: 1.1vw;
+    }
+    /*          Phần 2     */
+    .section_find{
+        border-bottom: 0.2vw solid #cccccc;
+    }
+    .container-find-left-span,
+    .container-find-right_a_span{
+        font-size: 1.2vw;
+    }
+    .container-find-left{
+        width: 50%;
+        border-right: 0.2vw solid #cccccc;
+        text-align: center;
+        height: 5.5vw;
+    }
+    .container-find-right{
+        width: 50%;
+        height: 5.5vw;
+    }
+    .container-find,
+    .section_find{
+        height: 5.5vw;
+    }
+    /*  modal phần 2  */
+    .find_clear{
+        font-size: 1.5vw;
+    }
+    .find_fil{
+        font-size: 1.8vw;
+        margin-left: 28vw;
+    }
+    .modal-body-span-header-span{
+        font-size: 2.5vw !important;
+    }
+    .modal-body-span-header{
+        font-size: 2.5vw !important;
+    }
+    .btn-gender{
+        font-size: 1.8vw;
+    }
+    .modal-body-gender-menu-span{
+        font-size: 1.5vw;
+    }
+    .case-span{
+        font-size: 1.5vw;
+    }
+    .img-fluid.avatar{
+        width: 5vw;
+        height: 5vw;
+    }
+    .btn-size{
+        font-size: 1.8vw;
+    }
+    .modal-body-size-menu-span{
+        font-size: 1.5vw;
+    }
+    .btn-color{
+        font-size: 1.8vw;
+    }
+    .color-span{
+        font-size: 1.8vw;
+    }
+    .modal-body-span-new{
+        font-size: 2vw;
+    }
+    .btn-collection{
+        font-size: 1.8vw;
+    }
+    .modal-body-collection-menu-span{
+        font-size: 1.5vw;
+    }
+    .btn-size{
+        font-size: 1.8vw;
+    }
+    .modal-body-type-menu-span{
+        font-size: 1.8vw;
+    }
+    .foodeer-span{
+        font-size: 1.8vw;
+    }
+    .modal-body-collection-menu-one a{
+        padding: 1vw 3vw;
+        border: 0.15vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two a{
+        padding: 1vw 3vw;
+        border: 0.15vw solid #cccccc;
+    }
+    .modal-body-collection-menu-three a{
+        padding: 1vw 3vw;
+        border: 0.15vw solid #cccccc;
+    }
+    .modal-body-collection-menu-one-spirit a{
+        padding: 1vw 3vw;
+        border: 0.15vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two{
+        margin: 0 2vw;
+    }
+    /*    phần 3  */
+    .h1_find{
+        font-size: 4vw;
+    }
+    .p_find{
+        font-size: 1.8vw;
+    }
+    .find_h1p_1{
+        border-right: 0.2vw solid #cccccc;
+        border-left: 0.2vw solid #cccccc;
+    }
+    /*    phần 4  */
+    .bigbang_0{
+        border-top: 0.2vw solid #cccccc;
+        border-bottom: 0.2vw solid #cccccc;
+    }
+    .bigbang_2{
+        border-right: 0.2vw solid #cccccc;
+        border-left: 0.2vw solid #cccccc;
+    }
+    .span_bigbang{
+        font-size: 3vw;
+    }
+    /*     Phần 5    */
+    .menu-span-2-span{
+        font-size: 1.7vw;
+        padding: 0.2vw 1.5vw;
+        border: 0.1vw solid red;
+    }
+    .menu-img img{
+        width: 70%;
+    }
+    .menu-brand-span{
+        font-size: 1.7vw;
+    }
+    .menu-name-span{
+        font-size: 2vw;
+    }
+    .menu-monny-span{
+        font-size: 1.7vw;
+    }
+    .fa.icon-monny{
+        font-size: 1vw;
+    }
+    .menu-icon{
+        text-align: center;
+        padding-bottom: 2.3vw;
+    }
+    .fa.icon-menu{
+        font-size: 2.5vw;
+    }
+    .space-big:after{
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 46%;
+        width: 8%;
+        height: 0.1vw;
+        border: 0.2vw solid red;
+    }
+/*    phần loadmore   */
+    .loadmore_span{
+        padding: 7vw 0 5vw 0;
+    }
+    .loadmore_span_span{
+        font-size: 2.3vw;
+    }
+    .loadmore-space-span{
+        width: 6vw;
+        height: 6vw;
+    }
+    .loadmore-space-span:before{
+        position: absolute;
+        bottom: 3vw;
+        left: 1.5vw;
+        content: " ";
+        width: 3vw;
+        height: 0.1vw;
+        border: 0.05vw solid white;
+    }
+    .loadmore-space-span:after{
+        position: absolute;
+        bottom: 1.5vw;
+        left: 3vw;
+        content: " ";
+        width: 0.1vw;
+        height: 3vw;
+        border: 0.05vw solid white;
+    }
+    .fas.icon-arrow{
+        font-size: 4.3vw;
+    }
+    .btn-size-span,
+    .btn-case-span,
+    .btn-gender-span,
+    .btn-collection-span{
+        font-size: 1.8vw;
+    }
+}
+
+/*     300%      */
+@media (max-width: 512px) {
+    /*   phần một   */
+    .watch,
+    .find,
+    .icon{
+        font-size: 1.1vw;
+    }
+    /*          Phần 2     */
+    .section_find{
+        border-bottom: 0.2vw solid #cccccc;
+    }
+    .container-find-left-span,
+    .container-find-right_a_span{
+        font-size: 1.3vw;
+    }
+    .container-find-left{
+        width: 50%;
+        border-right: 0.2vw solid #cccccc;
+        text-align: center;
+        height: 6.5vw;
+    }
+    .container-find-right{
+        width: 50%;
+        height: 6.5vw;
+    }
+    .container-find,
+    .section_find{
+        height: 6.5vw;
+    }
+    /*  modal phần 2  */
+    .find_clear{
+        font-size: 1.8vw;
+    }
+    .find_fil{
+        font-size: 2vw;
+        margin-left: 31vw;
+    }
+    .modal-body-span-header-span{
+        font-size: 2.7vw !important;
+    }
+    .modal-body-span-header{
+        font-size: 2.7vw !important;
+    }
+    .btn-gender{
+        font-size: 2vw;
+    }
+    .modal-body-gender-menu-span{
+        font-size: 1.8vw;
+    }
+    .case-span{
+        font-size: 1.8vw;
+    }
+    .img-fluid.avatar{
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+    .btn-size{
+        font-size: 2vw;
+    }
+    .modal-body-size-menu-span{
+        font-size: 2vw;
+    }
+    .btn-color{
+        font-size: 2vw;
+    }
+    .color-span{
+        font-size: 2vw;
+    }
+    .modal-body-span-new{
+        font-size: 2.2vw;
+    }
+    .btn-collection{
+        font-size: 2vw;
+    }
+    .modal-body-collection-menu-span{
+        font-size: 1.8vw;
+    }
+    .btn-size{
+        font-size: 2vw;
+    }
+    .modal-body-type-menu-span{
+        font-size: 2vw;
+    }
+    .foodeer-span{
+        font-size: 2vw;
+    }
+    .modal-body-collection-menu-one a{
+        padding: 1vw 3.5vw;
+        border: 0.2vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two a{
+        padding: 1vw 3.5vw;
+        border: 0.2vw solid #cccccc;
+    }
+    .modal-body-collection-menu-three a{
+        padding: 1vw 3.5vw;
+        border: 0.2vw solid #cccccc;
+    }
+    .modal-body-collection-menu-one-spirit a{
+        padding: 1vw 3.5vw;
+        border: 0.2vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two{
+        margin: 0 3vw;
+    }
+    /*    phần 3  */
+    .h1_find{
+        font-size: 4.2vw;
+    }
+    .p_find{
+        font-size: 2vw;
+    }
+    /*    phần 4  */
+    .bigbang_0{
+        border-top: 0.2vw solid #cccccc;
+        border-bottom: 0.2vw solid #cccccc;
+    }
+    .bigbang_2{
+        border-right: 0.2vw solid #cccccc;
+        border-left: 0.2vw solid #cccccc;
+    }
+    .span_bigbang{
+        font-size: 3.2vw;
+    }
+
+    /*     Phần 5    */
+    .menu-span-2-span{
+        font-size: 2vw;
+        padding: 0.2vw 1.5vw;
+        border: 0.1vw solid red;
+    }
+    .menu-img img{
+        width: 80%;
+    }
+    .menu-brand-span{
+        font-size: 2vw;
+    }
+    .menu-name-span{
+        font-size: 2.3vw;
+    }
+    .menu-monny-span{
+        font-size: 2vw;
+    }
+    .fa.icon-monny{
+        font-size: 1.3vw;
+    }
+    .menu-icon{
+        text-align: center;
+        padding-bottom: 2.5vw;
+    }
+    .fa.icon-menu{
+        font-size: 2.8vw;
+    }
+    /*    phần loadmore   */
+    .loadmore_span{
+        padding: 7vw 0 5vw 0;
+    }
+    .loadmore_span_span{
+        font-size: 2.5vw;
+    }
+    .loadmore-space-span{
+        width: 6vw;
+        height: 6vw;
+    }
+    .loadmore-space-span:before{
+        position: absolute;
+        bottom: 3vw;
+        left: 1.5vw;
+        content: " ";
+        width: 3vw;
+        height: 0.1vw;
+        border: 0.05vw solid white;
+    }
+    .loadmore-space-span:after{
+        position: absolute;
+        bottom: 1.5vw;
+        left: 3vw;
+        content: " ";
+        width: 0.1vw;
+        height: 3vw;
+        border: 0.05vw solid white;
+    }
+    .fas.icon-arrow{
+        font-size: 4.5vw;
+    }
+    .btn-size-span,
+    .btn-case-span,
+    .btn-gender-span,
+    .btn-collection-span{
+        font-size: 2vw;
+    }
+}
+
+/*     400%      */
+@media (max-width: 390px) {
+    /*   phần một   */
+    .watch,
+    .find,
+    .icon{
+        font-size: 1.1vw;
+    }
+    /*          Phần 2     */
+    .section_find{
+        border-bottom: 0.25vw solid #cccccc;
+    }
+    .container-find-left-span,
+    .container-find-right_a_span{
+        font-size: 1.4vw;
+        line-height: 24.96px;
+    }
+    .container-find-left{
+        width: 50%;
+        border-right: 0.25vw solid #cccccc;
+        text-align: center;
+        height: 8vw;
+    }
+    .container-find-right{
+        width: 50%;
+        height: 8vw;
+    }
+    .container-find,
+    .section_find{
+        height: 8vw;
+    }
+    /*  modal phần 2  */
+    .find_clear{
+        font-size: 2vw;
+    }
+    .find_fil{
+        font-size: 2.2vw;
+        margin-left: 28vw;
+    }
+    .modal-body-span-header-span{
+        font-size: 3vw !important;
+    }
+    .modal-body-span-header{
+        font-size: 3vw !important;
+    }
+    .btn-gender{
+        font-size: 2.2vw;
+    }
+    .modal-body-gender-menu-span{
+        font-size: 2vw;
+    }
+    .case-span{
+        font-size: 2vw;
+    }
+    .img-fluid.avatar{
+        width: 6vw;
+        height: 6vw;
+    }
+    .btn-size{
+        font-size: 2.2vw;
+    }
+    .modal-body-size-menu-span{
+        font-size: 2.2vw;
+    }
+    .btn-color{
+        font-size: 2.2vw;
+    }
+    .color-span{
+        font-size: 2.2vw;
+    }
+    .modal-body-span-new{
+        font-size: 2.2vw;
+    }
+    .btn-collection{
+        font-size: 2.2vw;
+    }
+    .modal-body-collection-menu-span{
+        font-size: 2vw;
+    }
+    .btn-size{
+        font-size: 2.2vw;
+    }
+    .modal-body-type-menu-span{
+        font-size: 2.2vw;
+    }
+    .foodeer-span{
+        font-size: 2.2vw;
+    }
+    .modal-body-collection-menu-one a{
+        padding: 1vw 4vw;
+        border: 0.2vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two a{
+        padding: 1vw 4vw;
+        border: 0.2vw solid #cccccc;
+    }
+    .modal-body-collection-menu-three a{
+        padding: 1vw 4vw;
+        border: 0.2vw solid #cccccc;
+    }
+    .modal-body-collection-menu-one-spirit a{
+        padding: 1vw 4vw;
+        border: 0.2vw solid #cccccc;
+    }
+    .modal-body-collection-menu-two{
+        margin: 0 3.5vw;
+    }
+    /*    phần 3  */
+    .h1_find{
+        font-size: 4.5vw;
+    }
+    .p_find{
+        font-size: 2.3vw;
+    }
+    .find_h1p_1{
+        border-right: 0.25vw solid #cccccc;
+        border-left: 0.25vw solid #cccccc;
+    }
+    /*    phần 4  */
+    .bigbang_0{
+        border-top: 0.25vw solid #cccccc;
+        border-bottom: 0.25vw solid #cccccc;
+    }
+    .bigbang_2{
+        border-right: 0.25vw solid #cccccc;
+        border-left: 0.25vw solid #cccccc;
+    }
+    .span_bigbang{
+        font-size: 3.5vw;
+    }
+
+    /*     Phần 5    */
+    .menu-span-2-span{
+        font-size: 2vw;
+        padding: 0.2vw 1.5vw;
+        border: 0.1vw solid red;
+    }
+    .menu-img img{
+        width: 90%;
+    }
+    .menu-brand-span{
+        font-size: 2.3vw;
+    }
+    .menu-name-span{
+        font-size: 2.5vw;
+    }
+    .menu-monny-span{
+        font-size: 2.3vw;
+    }
+    .fa.icon-monny{
+        font-size: 1.5vw;
+    }
+    .menu-icon{
+        text-align: center;
+        padding-bottom: 2.8vw;
+    }
+    .fa.icon-menu{
+        font-size: 3vw;
+    }
+    .space-big:after{
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        width: 10%;
+        height: 0.1vw;
+        border: 0.2vw solid red;
+    }
+    /*    phần loadmore   */
+    .loadmore_span{
+        padding: 7vw 0 5vw 0;
+    }
+    .loadmore_span_span{
+        font-size: 3vw;
+    }
+    .loadmore-space-span{
+        width: 7vw;
+        height: 7vw;
+    }
+    .loadmore-space-span:before{
+        position: absolute;
+        bottom: 3.5vw;
+        left: 1.75vw;
+        content: " ";
+        width: 3.5vw;
+        height: 0.1vw;
+        border: 0.05vw solid white;
+    }
+    .loadmore-space-span:after{
+        position: absolute;
+        bottom: 1.75vw;
+        left: 3.5vw;
+        content: " ";
+        width: 0.1vw;
+        height: 3.5vw;
+        border: 0.05vw solid white;
+    }
+    .fas.icon-arrow{
+        font-size: 4.7vw;
+    }
+    .btn-size-span,
+    .btn-case-span,
+    .btn-gender-span,
+    .btn-collection-span{
+        font-size: 2.3vw;
+    }
+}
+
+
+/*     500%      */
+@media (max-width: 308px) {
+    /*   phần một   */
+    .watch,
+    .find,
+    .icon{
+        font-size: 1.1vw;
+    }
+    /*          Phần 2     */
+
+    .container-find-left-span,
+    .container-find-right_a_span{
+        font-size: 1.4vw;
+    }
+    .container-find-left{
+        width: 50%;
+        border-right: 0.25vw solid #cccccc;
+        text-align: center;
+        height: 10vw;
+    }
+    .container-find-right{
+        width: 50%;
+        height: 10vw;
+    }
+    .container-find,
+    .section_find{
+        height: 10vw;
+    }
+    .h1_find{
+        font-size: 4.8vw;
+    }
+    .p_find{
+        font-size: 2.5vw;
+    }
+    .find_fil{
+        margin-left: 27vw;
+    }
+    .modal-body-collection-menu-two{
+        margin: 0 4vw;
+    }
+    /*  Phần 4   */
+    .span_bigbang{
+        font-size: 3.8vw;
+    }
+    /*     Phần 5    */
+    .menu-span-2-span{
+        font-size: 2.2vw;
+    }
+    .menu-img img{
+        width: 100%;
+    }
+    .menu-brand-span{
+        font-size: 2.5vw;
+    }
+    .menu-name-span{
+        font-size: 2.8vw;
+    }
+    .menu-monny-span{
+        font-size: 2.5vw;
+    }
+    .fa.icon-monny{
+        font-size: 1.8vw;
+    }
+    .menu-icon{
+        text-align: center;
+        padding-bottom: 3vw;
+    }
+    .fa.icon-menu{
+        font-size: 3.2vw;
+    }
+    .space-big:after{
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        width: 10%;
+        height: 0.1vw;
+        border: 0.2vw solid red;
+    }
+    /*    phần loadmore   */
+    .loadmore_span{
+        padding: 7vw 0 5vw 0;
+    }
+    .loadmore_span_span{
+        font-size: 3.5vw;
+    }
+    .loadmore-space-span{
+        width: 8vw;
+        height: 8vw;
+    }
+    .loadmore-space-span:before{
+        position: absolute;
+        bottom: 4vw;
+        left: 2vw;
+        content: " ";
+        width: 4vw;
+        height: 0.1vw;
+        border: 0.05vw solid white;
+    }
+    .loadmore-space-span:after{
+        position: absolute;
+        bottom: 2vw;
+        left: 4vw;
+        content: " ";
+        width: 0.1vw;
+        height: 4vw;
+        border: 0.05vw solid white;
+    }
+    .fas.icon-arrow{
+        font-size: 5vw;
+    }
+}

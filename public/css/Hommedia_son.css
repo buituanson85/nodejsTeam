@@ -1,0 +1,1389 @@
+/*Trang chu*/
+@media (min-width: 992px) {
+    .container-fluid.header:before{
+        display: none;
+    }
+    .section.nav_2{
+        display: none;
+    }
+    .col-lg-auto.menu{
+        display: none;
+    }
+    .section.lastnew{
+        display: none;
+    }
+    .lastnew2{
+        display: none;
+    }
+    .carousel_ln.slide,.left.carousel-control_ln,.right.carousel-control_ln{
+        display: none;
+    }
+    #myCarousel{
+        display: none;
+    }
+}
+
+/* 175% */
+@media (max-width: 992px) {
+    /*    bắt đầu thẻ video*/
+    #main-video_myBtn {
+        position: absolute;
+        bottom: 0.6vw;
+        right: 0;
+        width: 15%;
+        font-size: 150%;
+        padding: 0;
+    }
+    /*    Bắt đầu find */
+    .d-flex.find{
+        flex-direction: column;
+    }
+    .col-lg-3.text-center.find_center{
+        margin: 3vw 0;
+    }
+    .find_span{
+        color: #FFFFFF;
+        font-size: 1.8vw;
+        min-font-size: 1.8vw;
+    }
+    .find_span_left{
+        color: #171717;
+        font-size: 1.8vw;
+        min-font-size: 1.8vw;
+    }
+    .main_find_left,.main_find_center,.main_find_right{
+        border: 0.1vw solid #FFFFFF;
+    }
+    .main_find_left:before,.main_find_center:before,.main_find_right:before{
+        display: none;
+    }
+    .main_find_left:hover,.main_find_center:hover,.main_find_right:hover{
+        color: #cccccc;
+        opacity: 0.3;
+    }
+    /*    thẻ Nav  */
+    .section.nav_2{
+        display: block;
+    }
+    .nav_content{
+        display: none;
+    }
+    .carousel-control {
+        position: absolute;
+        top: 95%;
+        width: 20%;
+        font-size: 30px;
+    }
+    .prev_arrow_2{
+        border-width: 0 0.5vw 0.5vw 0;
+        padding: 0.7vw;
+        position: absolute;
+        left: 7vw;
+        top: 3vw;
+    }
+    .prev_line_2{
+        width: 4.5vw;
+        border-width: 0.5vw 0 0 0;
+        position: absolute;
+        left: 7vw;
+        top: 3.7vw;
+    }
+
+    .next_arrow_2{
+        border-width: 0 0.5vw 0.5vw 0;
+        padding: 0.7vw;
+        position: absolute;
+        left: -3.2vw;
+        top: -0.7vw;
+    }
+    .next_line_2{
+        width: 4.5vw;
+        border-width: 0.5vw 0 0 0;
+        position: absolute;
+        left: -3.2vw;
+        top: 0;
+    }
+    /*    Bắt đầu thẻ our music */
+    .main_ourworld{
+        flex-direction: column;
+        padding: 4.6% 3%;
+        background-image: linear-gradient(#171717 20%,white 20%,white 20%,white 20%,white 20%)
+    }
+    .main_ourworld_content_left{
+        width: 100%;
+        padding-bottom: 20%;
+
+    }
+    .main_ourworld_content_right{
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20%;
+        background-color: #FFFFFF;
+    }
+    .main_ourworld_content_left_bottom_content_craftsmanship{
+        color: #171717;
+        font-size: 200%;
+        font-weight: bolder;
+        margin-left: 10%;
+    }
+
+    .main_ourworld_content_right_bottom_content_partnerships{
+        color: #171717;
+        font-size: 200%;
+        font-weight: bolder;
+        margin-left: 10%;
+    }
+    .main_ourworld_content_left_bottom{
+        padding: 0 15%;
+        position: absolute;
+        left: 0;
+        bottom: 3%;
+        text-align: center;
+    }
+    .main_ourworld_content_right_bottom{
+        padding: 0 15%;
+        position: absolute;
+        left: 0;
+        bottom: 3%;
+        text-align: center;
+    }
+    .main_ourworld_content_left_bottom_content_craftsmanship{
+        margin: 0;
+    }
+    .main_ourworld_content_right_bottom_content_partnerships{
+        margin: 0;
+    }
+    .main_ourworld_content_left_bottom_content_span{
+        font-size: 100%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_right_bottom_content_span{
+        font-size: 100%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_left_bottom_content_learmore{
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_right_bottom_content_learmore{
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 80%;
+        border: 0.05vw solid #171717;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 100%;
+        border: 0.05vw solid #171717;
+    }
+    /*    Bắt đầu thẻ muisic*/
+    .main_music_bottom{
+        text-align: center;
+        padding: 0 15%;
+        position: absolute;
+        left: 0;
+        bottom: -3%;
+    }
+    .main_music{
+        padding: 4.6% 3% 10% 3%;
+    }
+    .main_music_bottom_content{
+        padding-top: 5%;
+    }
+    .main_music_bottom_content.levemore{
+        margin-top: 3vw;
+    }
+    .main_music_bottom_content_artmusic{
+        margin: 0;
+        font-size: 1.2vw;
+        letter-spacing: 0.5vw;
+    }
+
+    .main_music_bottom_content_richardorlinski{
+        font-size: 2.4vw;
+        font-weight: 700;
+        margin-left: 0;
+    }
+
+    .main_music_bottom{
+        margin: 0;
+        letter-spacing: 0.5vw;
+    }
+    .main_music_bottom_content_link_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 1vw;
+        margin: 0;
+        border: 0.05vw solid #171717;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore.text-nowrap{
+        font-size: 100%;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore.text-nowrap{
+        font-size: 100%;
+    }
+    /*    Bắt đầy thẻ last new*/
+    .header_lastnew{
+        padding: 4.5% 0;
+    }
+    .header_lastnew_span{
+        padding: 0 3vw;
+    }
+    .container_lastnew,.container_lastnew_main,.container_lastnew_main2,.container_lastnew_main3,.conten_learnmore{
+        display: none;
+    }
+    .fa_iconlastnew{
+        font-size: 2vw;
+    }
+    /*    bắt đầu thẻ lasst neww 2*/
+    .lastnew2{
+        display: block;
+        font-size: 2vw;
+    }
+    .carousel_ln.slide,.left.carousel-control_ln,.right.carousel-control_ln{
+        display: block;
+    }
+    #myCarousel{
+        display: block;
+    }
+/*    levo move  */
+    .img-fluid.main-top{
+        max-width: 50%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        margin-left: -5vw;
+        width: 5%;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_center a{
+        font-size: 2.4vw;
+        text-align: left;
+        margin-right: 4vw;
+    }
+     .container_lastnew_main3_main_bottom i{
+         font-size: 2.5vw;
+         margin-right: 3vw;
+     }
+    .notamenu_bottom.iconbottom{
+       margin-left: -6vw;
+    }
+    .container_lastnew_main1 a span{
+        font-size: 1.4vw;
+    }
+    .container_lastnew_main1_span span{
+        font-size: 1.1vw;
+    }
+    .container_lastnew_main2 a span{
+        font-size: 1.4vw;
+    }
+    .container_lastnew_main2_span span{
+        font-size: 1.8vw;
+    }
+    .container_lastnew_main3_span span{
+        font-size: 1.8vw;
+    }
+    .carousel-caption_ln.text-left{
+        padding: 3vw 0 5vw 0;
+    }
+    .carousel-control_ln.lastnew {
+        position: absolute;
+        top: 94%;
+    }
+    .carousel-indicators_ln.lastnew {
+        position: absolute;
+        top: 94%;
+    }
+    .prev_arrow_ln.lastnew{
+        position: absolute;
+        left: 4vw;
+        top: 2vw;
+    }
+    .prev_line_ln.lastnew{
+        position: absolute;
+        left: 4vw;
+        top: 2.5vw;
+    }
+    .next_arrow_ln.lastnew{
+        position: absolute;
+        right: 2.2vw;
+        top: -0.5vw;
+    }
+    .next_line_ln.lastnew{
+        position: absolute;
+        right: -0.5vw;
+        top: 0;
+    }
+    .prev_arrow_ln.lastnew{
+        border-width: 0 0.4vw 0.4vw 0;
+        padding: 0.5vw;
+    }
+    .prev_line_ln.lastnew{
+        width: 4vw;
+        border-width: 0.4vw 0 0 0;
+    }
+
+    .next_arrow_ln.lastnew{
+        border-width: 0 0.4vw 0.4vw 0;
+        padding: 0.5vw;
+    }
+    .next_line_ln.lastnew{
+        width: 4vw;
+        border-width: 0.4vw 0 0 0;
+    }
+    .notamenu_a{
+        font-size: 2.4vw;
+    }
+    .notamenu_aaaa{
+        font-size: 1.7vw;
+    }
+    .lastnew_span{
+        font-size: 2vw;
+        word-spacing: 1.3px;
+        letter-spacing: 1.3px;
+    }
+    .fa.icon{
+        font-size: 4vw;
+    }
+
+}
+
+/* 200% */
+@media (max-width: 768px) {
+
+    /*    Bắt đầu thẻ video */
+    #main-video_myBtn {
+        position: absolute;
+        bottom: 0.65vw;
+        right: 0;
+        width: 14%;
+        font-size: 130%;
+        padding: 0;
+    }
+    /*    Bắt đầu thẻ find */
+    .find_span{
+        color: #FFFFFF;
+        font-size: 2vw;
+        min-font-size: 2vw;
+    }
+    .find_span_left{
+        color: #171717;
+        font-size: 2vw;
+        min-font-size: 2vw;
+    }
+    .main_find_left,.main_find_center,.main_find_right{
+        border: 0.15vw solid #FFFFFF;
+    }
+    /*    Bắt đầy nav */
+    .carousel-indicators {
+        position: absolute;
+        top: 96.5%;
+    }
+    /*bắt đầu thẻ pur múcic*/
+    .main_ourworld_content_left_bottom_content_span_learmore{
+        border: 0.1vw solid #171717;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore{
+        border: 0.1vw solid #171717;
+    }
+    .main_music_bottom_content_link_learmore{
+        border: 0.1vw solid #171717;
+    }
+    /*    bắt đầu thẻ lasst new */
+    .carousel-caption_ln{
+        padding: 6vw 0;
+        margin-bottom: 6vw;
+    }
+
+/*    levo*/
+    .img-fluid.main-top{
+        max-width: 60%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        margin-left: -3vw;
+        width: 5%;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_center a{
+        font-size: 2.4vw;
+        text-align: left;
+        margin-right: 2vw;
+    }
+    .container_lastnew_main3_main_bottom i{
+        font-size: 2.5vw;
+        margin-right: 2vw;
+    }
+    .notamenu_bottom.iconbottom{
+        margin-left: -6vw;
+    }
+    .container_lastnew_main3_main_2{
+        margin-right: 4vw;
+    }
+    .container_lastnew_main1 a span{
+        font-size: 1.4vw;
+    }
+    .container_lastnew_main1_span span{
+        font-size: 1.1vw;
+    }
+    .container_lastnew_main2 a span{
+        font-size: 1.4vw;
+    }
+    .container_lastnew_main2_span span{
+        font-size: 2.2vw;
+    }
+    .container_lastnew_main3_span span{
+        font-size: 2.2vw;
+    }
+    .carousel-caption_ln.text-left{
+        padding: 3vw 0 6vw 0;
+    }
+    .carousel-control_ln.lastnew {
+        position: absolute;
+        top: 94%;
+    }
+    .carousel-indicators_ln.lastnew {
+        position: absolute;
+        top: 94%;
+    }
+    .prev_arrow_ln.lastnew{
+        border-width: 0 0.5vw 0.5vw 0;
+        padding: 0.6vw;
+    }
+    .prev_line_ln.lastnew{
+        width: 4.5vw;
+        border-width: 0.5vw 0 0 0;
+    }
+
+    .next_arrow_ln.lastnew{
+        border-width: 0 0.5vw 0.5vw 0;
+        padding: 0.6vw;
+    }
+    .next_line_ln.lastnew{
+        width: 4.5vw;
+        border-width: 0.5vw 0 0 0;
+    }
+    .notamenu_a{
+        font-size: 2.6vw;
+    }
+    .notamenu_aaaa{
+        font-size: 1.9vw;
+    }
+    .lastnew_span{
+        font-size: 4.2vw;
+        word-spacing: 1.5px;
+        letter-spacing: 1.5px;
+    }
+    .fa.icon{
+        font-size: 5vw;
+    }
+}
+
+
+/*250%*/
+@media (max-width: 614px) {
+    /*        bắt đầu thẻ video */
+    #main-video_myBtn {
+        position: absolute;
+        bottom: 0.85vw;
+        right: 0;
+        width: 12%;
+        font-size: 110%;
+        padding: 0;
+    }
+    /*    Bắt đầu thẻ find */
+    .find_span_left{
+        color: #171717;
+        font-size: 2vw;
+        min-font-size: 2vw;
+    }
+    .main_find_left,.main_find_center,.main_find_right{
+        border: 0.15vw solid #FFFFFF;
+    }
+    /*bắt đầu thẻ nav*/
+    .carousel-indicators {
+        position: absolute;
+        top: 95%;
+    }
+    .carousel-control {
+        position: absolute;
+        top: 93%;
+        width: 20%;
+        font-size: 30px;
+    }
+    .prev_arrow_2{
+        border-width: 0 0.7vw 0.7vw 0;
+        padding: 1vw;
+        position: absolute;
+        left: 7vw;
+        top: 3.5vw;
+    }
+    .prev_line_2{
+        width: 5.5vw;
+        border-width: 0.7vw 0 0 0;
+        position: absolute;
+        left: 7vw;
+        top: 4.5vw;
+    }
+
+    .next_arrow_2{
+        border-width: 0 0.7vw 0.7vw 0;
+        padding: 1vw;
+        position: absolute;
+        left: -3.2vw;
+        top: 0;
+    }
+    .next_line_2{
+        width: 5.5vw;
+        border-width: 0.7vw 0 0 0;
+        position: absolute;
+        left: -3.2vw;
+        top: 1vw;
+    }
+    /*bắt đầu thẻ pur múcic*/
+    /*    Bắt đầu thẻ our music */
+    .main_ourworld_content_left_bottom_content_craftsmanship{
+        color: #171717;
+        font-size: 230%;
+        font-weight: bolder;
+    }
+
+    .main_ourworld_content_right_bottom_content_partnerships{
+        color: #171717;
+        font-size: 230%;
+        font-weight: bolder;
+    }
+
+    .main_ourworld_content_left_bottom_content_span{
+        font-size: 130%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_right_bottom_content_span{
+        font-size: 130%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 120%;
+        border: 0.12vw solid #171717;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 120%;
+        border: 0.12vw solid #171717;
+    }
+    /*    Bắt đầu thẻ muisic*/
+
+    .main_music_bottom_content_artmusic{
+        margin: 0;
+        font-size: 1.5vw;
+        letter-spacing: 0.5vw;
+    }
+
+    .main_music_bottom_content_richardorlinski{
+        font-size: 2.8vw;
+        font-weight: 700;
+        margin-left: 0;
+    }
+
+    .main_music_bottom_content_link_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 1.3vw;
+        margin: 0;
+        border: 0.12vw solid #171717;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore.text-nowrap{
+        font-size: 130%;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore.text-nowrap{
+        font-size: 130%;
+    }
+    /*    bắt đầu thẻ last new */
+    .container_lastnew_main3_main_top{
+        max-width: 33.34%;
+    }
+    /*?*/
+    .container_lastnew_main3_main_center a{
+        font-size: 2.8vw;
+        margin-left: -8vw;
+    }
+    .container_lastnew_main3_main_bottom i{
+        font-size: 2vw;
+        margin-right: 4vw;
+    }
+    .container_lastnew_main3_main_2{
+        margin-right: 4vw;
+    }
+    .container_lastnew_main1 a span{
+        font-size: 1.6vw;
+    }
+    .container_lastnew_main1_span span{
+        font-size: 1.4vw;
+    }
+    .container_lastnew_main2 a span{
+        font-size: 1.6vw;
+    }
+    .container_lastnew_main2_span span{
+        font-size: 2.6vw;
+    }
+    .container_lastnew_main3_span span{
+        font-size: 2.6vw;
+    }
+    .carousel-caption_ln.text-left{
+        padding: 4vw 0 8vw 0;
+    }
+    .carousel-control_ln.lastnew {
+        position: absolute;
+        top: 93%;
+    }
+    .carousel-indicators_ln.lastnew {
+        position: absolute;
+        top: 93%;
+    }
+    .prev_arrow_ln.lastnew{
+        position: absolute;
+        left: 4vw;
+        top: 2.9vw;
+    }
+    .prev_line_ln.lastnew{
+        position: absolute;
+        left: 4vw;
+        top: 3.5vw;
+    }
+    .next_arrow_ln.lastnew{
+        position: absolute;
+        right: 2.2vw;
+        top: -0.6vw;
+    }
+    .next_line_ln.lastnew{
+        position: absolute;
+        right: -1vw;
+        top: 0;
+    }
+    .prev_arrow_ln.lastnew{
+        border-width: 0 0.5vw 0.5vw 0;
+        padding: 0.6vw;
+    }
+    .prev_line_ln.lastnew{
+        width: 4.5vw;
+        border-width: 0.5vw 0 0 0;
+    }
+
+    .next_arrow_ln.lastnew{
+        border-width: 0 0.5vw 0.5vw 0;
+        padding: 0.6vw;
+    }
+    .next_line_ln.lastnew{
+        width: 4.5vw;
+        border-width: 0.5vw 0 0 0;
+    }
+    .notamenu_a{
+        font-size: 2.8vw;
+    }
+    .notamenu_aaaa{
+        font-size: 2.2vw;
+    }
+    .lastnew_span{
+        font-size: 5.2vw;
+        word-spacing: 1.2px;
+        letter-spacing: 1.2px;
+    }
+    .fa.icon{
+        font-size: 6vw;
+    }
+
+    .item.nav_content:hover{
+        -ms-transform: scale(1.06);
+        -webkit-transform: scale(1.06);
+        transform: scale(1.06);
+    }
+    .item.active.nav_content{
+        transition: transform 0.9s;
+    }
+    .item.active.nav_content:hover{
+        -ms-transform: scale(1.06);
+        -webkit-transform: scale(1.06);
+        transform: scale(1.06);
+    }
+/*     lovư  */
+    .img-fluid.main-top{
+        max-width: 70%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        width: 5%;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_center a{
+        font-size: 2.6vw;
+        text-align: center;
+        margin-left: 2vw;
+    }
+    .container_lastnew_main3_main_bottom i{
+        font-size: 2.8vw;
+    }
+    .notamenu_bottom.iconbottom{
+        margin-left: -6vw;
+    }
+}
+/* 300 */
+@media (max-width: 512px) {
+    /*        bắt đầu thẻ video */
+    #main-video_myBtn {
+        position: absolute;
+        bottom: 0.95vw;
+        right: 0;
+        width: 12%;
+        font-size: 100%;
+        padding: 0;
+    }
+
+    .menu_heard{
+        margin-top: 10vw;
+    }
+    .find_span{
+        color: #FFFFFF;
+        font-size: 2.5vw;
+        min-font-size: 2.5vw;
+    }
+    .find_span_left{
+        color: #171717;
+        font-size: 2.5vw;
+        min-font-size: 2.5vw;
+    }
+    .main_find_left,.main_find_center,.main_find_right{
+        border: 0.2vw solid #FFFFFF;
+    }
+    /*bắt đầu thẻ nav*/
+    .carousel-indicators {
+        position: absolute;
+        top: 94.5%;
+    }
+    .carousel-control {
+        position: absolute;
+        top: 93%;
+        width: 20%;
+        font-size: 30px;
+    }
+    .prev_arrow_2{
+        border-width: 0 0.7vw 0.7vw 0;
+        padding: 1vw;
+        position: absolute;
+        left: 7vw;
+        top: 3.5vw;
+    }
+    .prev_line_2{
+        width: 5.5vw;
+        border-width: 0.7vw 0 0 0;
+        position: absolute;
+        left: 7vw;
+        top: 4.5vw;
+    }
+
+    .next_arrow_2{
+        border-width: 0 0.7vw 0.7vw 0;
+        padding: 1vw;
+        position: absolute;
+        left: -3.2vw;
+        top: 0;
+    }
+    .next_line_2{
+        width: 5.5vw;
+        border-width: 0.7vw 0 0 0;
+        position: absolute;
+        left: -3.2vw;
+        top: 1vw;
+    }
+    /*bắt đầu thẻ pur múcic*/
+    /*    Bắt đầu thẻ our music */
+    .main_ourworld_content_left_bottom_content_craftsmanship{
+        color: #171717;
+        font-size: 240%;
+        font-weight: bolder;
+    }
+
+    .main_ourworld_content_right_bottom_content_partnerships{
+        color: #171717;
+        font-size: 240%;
+        font-weight: bolder;
+    }
+
+    .main_ourworld_content_left_bottom_content_span{
+        font-size: 140%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_right_bottom_content_span{
+        font-size: 140%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 140%;
+        border: 0.13vw solid #171717;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 140%;
+        border: 0.13vw solid #171717;
+    }
+    /*    Bắt đầu thẻ muisic*/
+
+    .main_music_bottom_content_artmusic{
+        margin: 0;
+        font-size: 1.7vw;
+        letter-spacing: 0.5vw;
+    }
+
+    .main_music_bottom_content_richardorlinski{
+        font-size: 3vw;
+        font-weight: 700;
+        margin-left: 0;
+    }
+
+    .main_music_bottom_content_link_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 1.4vw;
+        margin: 0;
+        border: 0.14vw solid #171717;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore.text-nowrap{
+        font-size: 140%;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore.text-nowrap{
+        font-size: 140%;
+    }
+
+    /*    bắt đầu thẻ last new */
+    .carousel-caption_ln{
+        padding: 15vw 0;
+        margin-bottom: 15vw;
+    }
+    .carousel-control_ln {
+        position: absolute;
+        top: 93%;
+    }
+    .carousel-indicators_ln {
+        position: absolute;
+        top: 93%;
+    }
+/*    ff*/
+    .container_lastnew_main3_main_center a{
+        font-size: 3.2vw;
+        margin-left: -10vw;
+    }
+    .container_lastnew_main3_main_bottom i{
+        font-size: 2vw;
+        margin-right: 4vw;
+    }
+    .container_lastnew_main3_main_2{
+        margin-right: 4vw;
+    }
+    .container_lastnew_main1 a span{
+        font-size: 1.6vw;
+    }
+    .container_lastnew_main1_span span{
+        font-size: 1.4vw;
+    }
+    .container_lastnew_main2 a span{
+        font-size: 1.6vw;
+    }
+    .container_lastnew_main2_span span{
+        font-size: 3vw;
+    }
+    .container_lastnew_main3_span span{
+        font-size: 3vw;
+    }
+    .carousel-caption_ln.text-left{
+        padding: 6vw 0 10vw 0;
+    }
+
+    .carousel-control_ln.lastnew {
+        position: absolute;
+        top: 92%;
+    }
+    .carousel-indicators_ln.lastnew {
+        position: absolute;
+        top: 92%;
+    }
+    .prev_arrow_ln.lastnew{
+        position: absolute;
+        left: 4vw;
+        top: 2.9vw;
+    }
+    .prev_line_ln.lastnew{
+        position: absolute;
+        left: 4vw;
+        top: 3.5vw;
+    }
+    .next_arrow_ln.lastnew{
+        position: absolute;
+        right: 2.2vw;
+        top: -0.6vw;
+    }
+    .next_line_ln.lastnew{
+        position: absolute;
+        right: -1vw;
+        top: 0;
+    }
+    .prev_arrow_ln.lastnew{
+        border-width: 0 0.6vw 0.6vw 0;
+        padding: 0.7vw;
+    }
+    .prev_line_ln.lastnew{
+        width: 5vw;
+        border-width: 0.6vw 0 0 0;
+    }
+
+    .next_arrow_ln.lastnew{
+        border-width: 0 0.6vw 0.6vw 0;
+        padding: 0.7vw;
+    }
+    .next_line_ln.lastnew{
+        width: 5vw;
+        border-width: 0.6vw 0 0 0;
+    }
+    .notamenu_a{
+        font-size: 3vw;
+    }
+    .notamenu_aaaa{
+        font-size: 2.1vw;
+    }
+    .lastnew_span{
+        font-size: 5.2vw;
+        /*word-spacing: 1.1px;*/
+        /*letter-spacing: 1.1px;*/
+    }
+    .fa.icon{
+        font-size: 7vw;
+    }
+    /*     lovư  */
+    .img-fluid.main-top{
+        max-width: 70%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        width: 5%;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_center a{
+        font-size: 2.6vw;
+        text-align: center;
+        margin-left: 3vw;
+    }
+    .container_lastnew_main3_main_bottom i{
+        font-size: 3vw;
+    }
+    .notamenu_bottom.iconbottom{
+        margin-left: -6vw;
+    }
+}
+/*400*/
+@media (max-width: 390px) {
+
+    .menu_heard{
+        margin-top: 13vw;
+    }
+    /*    bắt đầu video */
+    #main-video_myBtn {
+        position: absolute;
+        bottom: 1.3vw;
+        right: 0;
+        width: 12%;
+        font-size: 95%;
+        padding: 0;
+        margin: 0;
+    }
+    /*    bắt đầu thẻ find */
+    .find_span{
+        color: #FFFFFF;
+        font-size: 3vw;
+        min-font-size: 3vw;
+    }
+    .find_span_left{
+        color: #171717;
+        font-size: 3vw;
+        min-font-size: 3vw;
+    }
+    .main_find_left,.main_find_center,.main_find_right{
+        border: 0.25vw solid #FFFFFF;
+    }
+    /*    Bắt đầu thẻ Nav*/
+    .carousel-indicators {
+        position: absolute;
+        top: 92.5%;
+    }
+    .carousel-control {
+        position: absolute;
+        top: 91%;
+        width: 20%;
+        font-size: 30px;
+    }
+    .prev_arrow_2{
+        border-width: 0 0.9vw 0.9vw 0;
+        padding: 1.3vw;
+        position: absolute;
+        left: 7vw;
+        top: 3.5vw;
+    }
+    .prev_line_2{
+        width: 6.5vw;
+        border-width: 0.9vw 0 0 0;
+        position: absolute;
+        left: 7vw;
+        top: 4.8vw;
+    }
+
+    .next_arrow_2{
+        border-width: 0 0.9vw 0.9vw 0;
+        padding: 1.3vw;
+        position: absolute;
+        left: -3vw;
+        top: 1.8vw;
+    }
+    .next_line_2{
+        width: 6.5vw;
+        border-width: 0.9vw 0 0 0;
+        position: absolute;
+        left: -3vw;
+        top: 3vw;
+    }
+    /*    Bắt đầu thẻ our music */
+    .main_ourworld_content_left_bottom_content_craftsmanship{
+        color: #171717;
+        font-size: 250%;
+        font-weight: bolder;
+    }
+
+    .main_ourworld_content_right_bottom_content_partnerships{
+        color: #171717;
+        font-size: 250%;
+        font-weight: bolder;
+    }
+
+    .main_ourworld_content_left_bottom_content_span{
+        font-size: 150%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_right_bottom_content_span{
+        font-size: 150%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 150%;
+        border: 0.15vw solid #171717;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 150%;
+        border: 0.15vw solid #171717;
+    }
+    /*    Bắt đầu thẻ muisic*/
+
+    .main_music_bottom_content_artmusic{
+        margin: 0;
+        font-size: 1.8vw;
+        letter-spacing: 0.5vw;
+    }
+
+    .main_music_bottom_content_richardorlinski{
+        font-size: 3.1vw;
+        font-weight: 700;
+        margin-left: 0;
+    }
+
+    .main_music_bottom_content_link_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 1.5vw;
+        margin: 0;
+        border: 0.15vw solid #171717;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore.text-nowrap{
+        font-size: 150%;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore.text-nowrap{
+        font-size: 140%;
+    }
+    /*    ádađá*/
+    .carousel-caption_ln.text-left{
+        padding: 6vw 0 12vw 0;
+    }
+
+    .carousel-control_ln.lastnew {
+        position: absolute;
+        top: 90.5%;
+    }
+    .carousel-indicators_ln.lastnew {
+        position: absolute;
+        top: 90.5%;
+    }
+    .prev_arrow_ln.lastnew{
+        position: absolute;
+        left: 4vw;
+        top: 4vw;
+    }
+    .prev_line_ln.lastnew{
+        position: absolute;
+        left: 4vw;
+        top: 5vw;
+    }
+    .next_arrow_ln.lastnew{
+        position: absolute;
+        right: 2.2vw;
+        top: -1vw;
+    }
+    .next_line_ln.lastnew{
+        position: absolute;
+        right: -1vw;
+        top: 0;
+    }
+    .prev_arrow_ln.lastnew{
+        border-width: 0 0.8vw 0.8vw 0;
+        padding: 1vw;
+    }
+    .prev_line_ln.lastnew{
+        width: 6vw;
+        border-width: 0.8vw 0 0 0;
+    }
+
+    .next_arrow_ln.lastnew{
+        border-width: 0 0.8vw 0.8vw 0;
+        padding: 1vw;
+    }
+    .next_line_ln.lastnew{
+        width: 6vw;
+        border-width: 0.8vw 0 0 0;
+    }
+    .notamenu_a{
+        font-size: 3.2vw;
+    }
+    .notamenu_aaaa{
+        font-size: 2.4vw;
+    }
+    .lastnew_span{
+        font-size: 6.2vw;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+    .fa.icon{
+        font-size: 8vw;
+    }
+    .item.nav_content:hover{
+        -ms-transform: scale(1.04);
+        -webkit-transform: scale(1.04);
+        transform: scale(1.04);
+    }
+    .item.active.nav_content{
+        transition: transform 0.9s;
+    }
+    .item.active.nav_content:hover{
+        -ms-transform: scale(1.04);
+        -webkit-transform: scale(1.04);
+        transform: scale(1.04);
+    }
+    /*     lovư  */
+    .img-fluid.main-top{
+        max-width: 80%;
+    }
+    .container_lastnew_main3_main_center{
+        margin: 0!important;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_bottom{
+        width: 5%;
+        padding: 0 !important;
+    }
+    .container_lastnew_main3_main_center a{
+        font-size: 3vw;
+        text-align: center;
+        margin-left: 3vw;
+    }
+    .container_lastnew_main3_main_bottom i{
+        font-size: 3vw;
+    }
+    .notamenu_bottom.iconbottom{
+        margin-left: -6vw;
+    }
+}
+/* 500 */
+@media (max-width: 308px) {
+    .menu_heard{
+        margin-top: 13vw;
+    }
+    /*bắt đầu thẻ vi deo*/
+    #main-video_myBtn {
+        position: absolute;
+        bottom: 1.7vw;
+        right: 0;
+        width: 12%;
+        font-size: 80%;
+        padding: 0;
+        margin: 0;
+    }
+    /*    Bắt đầu thẻ Nav */
+    .carousel-indicators {
+        position: absolute;
+        top: 90.8%;
+    }
+    .carousel-control {
+        position: absolute;
+        top: 90%;
+        width: 20%;
+        font-size: 30px;
+    }
+    .prev_arrow_2{
+        border-width: 0 0.9vw 0.9vw 0;
+        padding: 1.3vw;
+        position: absolute;
+        left: 7vw;
+        top: 3.5vw;
+    }
+    .prev_line_2{
+        width: 6.5vw;
+        border-width: 0.9vw 0 0 0;
+        position: absolute;
+        left: 7vw;
+        top: 4.8vw;
+    }
+
+    .next_arrow_2{
+        border-width: 0 0.9vw 0.9vw 0;
+        padding: 1.3vw;
+        position: absolute;
+        left: -3vw;
+        top: 4.2vw;
+    }
+    .next_line_2{
+        width: 6.5vw;
+        border-width: 0.9vw 0 0 0;
+        position: absolute;
+        left: -3vw;
+        top: 5.4vw;
+    }
+    /*    Bắt đầu thẻ our music */
+    .main_ourworld_content_left_bottom_content_craftsmanship{
+        color: #171717;
+        font-size: 250%;
+        font-weight: bolder;
+    }
+
+    .main_ourworld_content_right_bottom_content_partnerships{
+        color: #171717;
+        font-size: 250%;
+        font-weight: bolder;
+    }
+
+    .main_ourworld_content_left_bottom_content_span{
+        font-size: 150%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_right_bottom_content_span{
+        font-size: 150%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 150%;
+        border: 0.15vw solid #171717;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 150%;
+        border: 0.15vw solid #171717;
+    }
+    /*    Bắt đầu thẻ muisic*/
+
+    .main_music_bottom_content_artmusic{
+        margin: 0;
+        font-size: 1.8vw;
+        letter-spacing: 0.5vw;
+    }
+
+    .main_music_bottom_content_richardorlinski{
+        font-size: 3.1vw;
+        font-weight: 700;
+        margin-left: 0;
+    }
+
+    .main_music_bottom_content_link_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 1.5vw;
+        margin: 0;
+        border: 0.15vw solid #171717;
+    }
+    .main_ourworld_content_left_bottom_content_span_learmore.text-nowrap{
+        font-size: 150%;
+    }
+    .main_ourworld_content_right_bottom_content_span_learmore.text-nowrap{
+        font-size: 140%;
+    }
+
+    /* sadâda */
+    .carousel-control_ln.lastnew {
+        position: absolute;
+        top: 88.5%;
+    }
+    .carousel-indicators_ln.lastnew {
+        position: absolute;
+        top: 88.5%;
+    }
+    .carousel-caption_ln.text-left{
+        padding: 6vw 0 15vw 0;
+    }
+    .lastnew_span{
+        font-size: 7.2vw;
+        word-spacing: 1.1px;
+        letter-spacing: 1.1px;
+    }
+}
+
+
