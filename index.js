@@ -82,15 +82,13 @@ app.get("api/messages",function (req,res) {
 
 //Thêm file
 
-app.get("/",function (req,res) {
+app.get("/trang-chu",function (req,res) {
     let Home = req.query.trangchu;
-    res.render("Home",{
-        counter: counter,
-        city:city
-    });
+    res.render("Home");
 });
 app.get("/tuan-son",function (req,res) {
     let PaceOneId = req.params.id;
     let PaceOne = {};
     res.render("PaceOne");
 })
+
