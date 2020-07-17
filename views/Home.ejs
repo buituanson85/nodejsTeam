@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("headerTeam") %>
+<body>
+<section class="section">
+    <!-- bắt đầu the main_find-->
+    <div class="container-fluid find w-100 font-weight-bold">
+        <div class="d-flex find align-self-center justify-content-center align-items-center text-uppercase">
+            <div class="col-lg-3 text-center find">
+                <a  href="/tuan-son" class="nota">
+                <div class="main_find_left d-inline-block position-relative">
+                    <span class="find_span_left">find your hublot watch</span>
+                </div>
+                </a>
+            </div>
+            <div class="col-lg-3 text-center find_center">
+                <a class="nota" href="#">
+                <div class="main_find_center d-inline-block position-relative">
+                    <span class="find_span">find a boutique</span>
+                </div>
+                </a>
+            </div>
+            <div class="col-lg-3 text-center find">
+                <a class="nota" href="#">
+                <div class="main_find_right d-inline-block position-relative">
+                    <span class="find_span">find your strap</span>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- bắt đầu the videos-->
+    <div class="embed-responsive embed-responsive-16by9 main-video">
+        <video width="100%" autoplay muted loop id="main-video_myVideo" poster="img/postnewew.jpg">
+            <source type="video/mp4" src="videos/HUBLOT%20BIG%20BANG%20MILLENNIAL%20PINK.mp4">
+        </video>
+<!--        <div id="main-video_content">-->
+<!--            <button id="main-video_myBtn" onclick="myFunction()">Pause</button>-->
+<!--        </div>-->
+<!--        <script>-->
+<!--            var video = document.getElementById("main-video_myVideo");-->
+<!--            var btn = document.getElementById("main-video_myBtn");-->
+<!--            function myFunction() {-->
+<!--                if (video.paused) {-->
+<!--                    video.play();-->
+<!--                    btn.innerHTML = "Pause";-->
+<!--                } else {-->
+<!--                    video.pause();-->
+<!--                    btn.innerHTML = "Play";-->
+<!--                }-->
+<!--            }-->
+<!--        </script>-->
+    </div>
+    <!-- het the videos-->
+    <!-- bắt đầu thẻ header watcher-->
+    <div class="header_watches d-block">
+        <span class="header_watcher_span uppercase">EXPLORE WATCHES</span>
+    </div>
+    <!-- kết thúc thẻ header watcher-->
+    <!--bắt đầu thẻ nav-->
+    <div class="nav-menu d-flex" id="nav_menu">
+        <div class="nav_content">
+            <a class="notamenu" href="#">
+                <div class="nav_content_top">
+                    <figure>
+                        <img class="mySlides_novelties w3-animate-fading" src="img/novelties_0.png" alt="novelties">
+                        <img class="mySlides_novelties w3-animate-fading" src="img/novelties_1.png" alt="novelties">
+                        <img class="mySlides_novelties w3-animate-fading" src="img/novelties_2.png" alt="novelties">
+                        <img class="mySlides_novelties w3-animate-fading" src="img/novelties_3.png" alt="novelties">
+                        <img class="mySlides_novelties w3-animate-fading" src="img/novelties__4.png" alt="novelties">
+                        <img class="mySlides_novelties w3-animate-fading" src="img/novelties_5.png" alt="novelties">
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides_novelties");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) {myIndex = 1}
+                                x[myIndex-1].style.display = "block";
+                                setTimeout(carousel, 20000);
+                            }
+                        </script>
+                    </figure>
+                </div>
+                <div class="nav_content_center"></div>
+                <div class="nav_content_bottom">novelties</div>
+            </a>
+        </div>
+
+        <div class="nav_content">
+            <a class="notamenu" href="#">
+                <div class="nav_content_top">
+                    <figure>
+                        <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_1.png" alt="big bang">
+                        <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_2.png" alt="big bang">
+                        <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_3.png" alt="big bang">
+                        <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_4.png" alt="big bang">
+                        <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_5.png" alt="big bang">
+                        <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_6.png" alt="big bang">
+                        <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_7.png" alt="big bang">
+                        <img class="mySlides_bigbang w3-animate-fading" src="img/bigbang_8.png" alt="big bang">
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides_bigbang");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) {myIndex = 1}
+                                x[myIndex-1].style.display = "block";
+                                setTimeout(carousel, 20000);
+                            }
+                        </script>
+                    </figure>
+                </div>
+                <div class="nav_content_center"></div>
+                <div class="nav_content_bottom">big bang</div>
+            </a>
+        </div>
+
+        <div class="nav_content">
+            <a class="notamenu" href="#">
+                <div class="nav_content_top">
+                    <figure>
+                        <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_1.png" alt="classicfusion">
+                        <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_3.png" alt="classicfusion">
+                        <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_4.png" alt="classicfusion">
+                        <img class="mySlides_classicfusion w3-animate-fading" src="img/classicfusion_5.png" alt="classicfusion">
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides_classicfusion");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) {myIndex = 1}
+                                x[myIndex-1].style.display = "block";
+                                setTimeout(carousel, 20000);
+                            }
+                        </script>
+                    </figure>
+                </div>
+                <div class="nav_content_center"></div>
+                <div class="nav_content_bottom">classic fusion</div>
+            </a>
+        </div>
+
+        <div class="nav_content">
+            <a class="notamenu" href="#">
+                <div class="nav_content_top">
+                    <figure>
+                        <img class="mySlides_spirit w3-animate-fading" src="img/spirit_1.png" alt="spirit">
+                        <img class="mySlides_spirit w3-animate-fading" src="img/spirit_2.png" alt="spirit">
+                        <img class="mySlides_spirit w3-animate-fading" src="img/spirit_3.png" alt="spirit">
+                        <img class="mySlides_spirit w3-animate-fading" src="img/spirit_4.png" alt="spirit">
+                        <img class="mySlides_spirit w3-animate-fading" src="img/spirit_5.png" alt="spirit">
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides_spirit");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) {myIndex = 1}
+                                x[myIndex-1].style.display = "block";
+                                setTimeout(carousel, 20000);
+                            }
+                        </script>
+                    </figure>
+                </div>
+                <div class="nav_content_center"></div>
+                <div class="nav_content_bottom">spirit of big bang</div>
+            </a>
+        </div>
+
+        <div class="nav_content">
+            <a class="notamenu" href="#">
+                <div class="nav_content_top">
+                    <figure>
+                        <img class="mySlides_mp w3-animate-fading" src="img/mp_1.png" alt="mp">
+                        <img class="mySlides_mp w3-animate-fading" src="img/mp_2.png" alt="mp">
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides_mp");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) {myIndex = 1}
+                                x[myIndex-1].style.display = "block";
+                                setTimeout(carousel, 60000);
+                            }
+                        </script>
+                    </figure>
+                </div>
+                <div class="nav_content_center"></div>
+                <div class="nav_content_bottom" >mp</div>
+            </a>
+        </div>
+    </div>
+    <!--addda-->
+    <div class="section nav_2">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators nav">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active nav_content">
+                    <a class="notamenu" href="#">
+                        <div class="nav_content_top_2">
+                            <figure>
+                                <img class="mySlides_novelties_2 w3-animate-fading" src="img/novelties_0.png" alt="novelties">
+                                <img class="mySlides_novelties_2 w3-animate-fading" src="img/novelties_1.png" alt="novelties">
+                                <img class="mySlides_novelties_2 w3-animate-fading" src="img/novelties_2.png" alt="novelties">
+                                <img class="mySlides_novelties_2 w3-animate-fading" src="img/novelties_3.png" alt="novelties">
+                                <img class="mySlides_novelties_2 w3-animate-fading" src="img/novelties__4.png" alt="novelties">
+                                <img class="mySlides_novelties_2 w3-animate-fading" src="img/novelties_5.png" alt="novelties">
+                                <script>
+                                    var myIndex = 0;
+                                    carousel();
+                                    function carousel() {
+                                        var i;
+                                        var x = document.getElementsByClassName("mySlides_novelties_2");
+                                        for (i = 0; i < x.length; i++) {
+                                            x[i].style.display = "none";
+                                        }
+                                        myIndex++;
+                                        if (myIndex > x.length) {myIndex = 1}
+                                        x[myIndex-1].style.display = "block";
+                                        setTimeout(carousel, 20000);
+                                    }
+                                </script>
+                            </figure>
+                        </div>
+                        <div class="nav_content_center_2"></div>
+                        <div class="carousel-caption">novelties</div>
+                    </a>
+                </div>
+
+                <div class="item nav_content">
+                    <a class="notamenu" href="#">
+                        <div class="nav_content_top_2">
+                            <figure>
+                                <img class="mySlides_bigbang_2 w3-animate-fading" src="img/bigbang_1.png" alt="big bang">
+                                <img class="mySlides_bigbang_2 w3-animate-fading" src="img/bigbang_2.png" alt="big bang">
+                                <img class="mySlides_bigbang_2 w3-animate-fading" src="img/bigbang_3.png" alt="big bang">
+                                <img class="mySlides_bigbang_2 w3-animate-fading" src="img/bigbang_4.png" alt="big bang">
+                                <img class="mySlides_bigbang_2 w3-animate-fading" src="img/bigbang_5.png" alt="big bang">
+                                <img class="mySlides_bigbang_2 w3-animate-fading" src="img/bigbang_6.png" alt="big bang">
+                                <img class="mySlides_bigbang_2 w3-animate-fading" src="img/bigbang_7.png" alt="big bang">
+                                <img class="mySlides_bigbang_2 w3-animate-fading" src="img/bigbang_8.png" alt="big bang">
+                                <script>
+                                    var myIndex = 0;
+                                    carousel();
+                                    function carousel() {
+                                        var i;
+                                        var x = document.getElementsByClassName("mySlides_bigbang_2");
+                                        for (i = 0; i < x.length; i++) {
+                                            x[i].style.display = "none";
+                                        }
+                                        myIndex++;
+                                        if (myIndex > x.length) {myIndex = 1}
+                                        x[myIndex-1].style.display = "block";
+                                        setTimeout(carousel, 20000);
+                                    }
+                                </script>
+                            </figure>
+                        </div>
+                        <div class="nav_content_center_2"></div>
+                        <div class="carousel-caption">big bang</div>
+                    </a>
+                </div>
+
+                <div class="item nav_content">
+                    <a class="notamenu" href="#">
+                        <div class="nav_content_top_2">
+                            <figure>
+                                <img class="mySlides_classicfusion_2 w3-animate-fading" src="img/classicfusion_1.png" alt="classicfusion">
+                                <img class="mySlides_classicfusion_2 w3-animate-fading" src="img/classicfusion_3.png" alt="classicfusion">
+                                <img class="mySlides_classicfusion_2 w3-animate-fading" src="img/classicfusion_4.png" alt="classicfusion">
+                                <img class="mySlides_classicfusion_2 w3-animate-fading" src="img/classicfusion_5.png" alt="classicfusion">
+                                <script>
+                                    var myIndex = 0;
+                                    carousel();
+                                    function carousel() {
+                                        var i;
+                                        var x = document.getElementsByClassName("mySlides_classicfusion_2");
+                                        for (i = 0; i < x.length; i++) {
+                                            x[i].style.display = "none";
+                                        }
+                                        myIndex++;
+                                        if (myIndex > x.length) {myIndex = 1}
+                                        x[myIndex-1].style.display = "block";
+                                        setTimeout(carousel, 20000);
+                                    }
+                                </script>
+                            </figure>
+                        </div>
+                        <div class="nav_content_center_2"></div>
+                        <div class="carousel-caption">classic fusion</div>
+                    </a>
+                </div>
+
+                <div class="item nav_content">
+                    <a class="notamenu" href="#">
+                        <div class="nav_content_top_2">
+                            <figure>
+                                <img class="mySlides_spirit_2 w3-animate-fading" src="img/spirit_1.png" alt="spirit">
+                                <img class="mySlides_spirit_2 w3-animate-fading" src="img/spirit_2.png" alt="spirit">
+                                <img class="mySlides_spirit_2 w3-animate-fading" src="img/spirit_3.png" alt="spirit">
+                                <img class="mySlides_spirit_2 w3-animate-fading" src="img/spirit_4.png" alt="spirit">
+                                <img class="mySlides_spirit_2 w3-animate-fading" src="img/spirit_5.png" alt="spirit">
+                                <script>
+                                    var myIndex = 0;
+                                    carousel();
+                                    function carousel() {
+                                        var i;
+                                        var x = document.getElementsByClassName("mySlides_spirit_2");
+                                        for (i = 0; i < x.length; i++) {
+                                            x[i].style.display = "none";
+                                        }
+                                        myIndex++;
+                                        if (myIndex > x.length) {myIndex = 1}
+                                        x[myIndex-1].style.display = "block";
+                                        setTimeout(carousel, 20000);
+                                    }
+                                </script>
+                            </figure>
+                        </div>
+                        <div class="nav_content_center_2"></div>
+                        <div class="carousel-caption">spirit of big bang</div>
+                    </a>
+                </div>
+
+                <div class="item nav_content">
+                    <a class="notamenu" href="#">
+                        <div class="nav_content_top_2">
+                            <figure>
+                                <img class="mySlides_mp_2 w3-animate-fading" src="img/mp_1.png" alt="mp">
+                                <img class="mySlides_mp_2 w3-animate-fading" src="img/mp_2.png" alt="mp">
+                                <script>
+                                    var myIndex = 0;
+                                    carousel();
+                                    function carousel() {
+                                        var i;
+                                        var x = document.getElementsByClassName("mySlides_mp_2");
+                                        for (i = 0; i < x.length; i++) {
+                                            x[i].style.display = "none";
+                                        }
+                                        myIndex++;
+                                        if (myIndex > x.length) {myIndex = 1}
+                                        x[myIndex-1].style.display = "block";
+                                        setTimeout(carousel, 60000);
+                                    }
+                                </script>
+                            </figure>
+                        </div>
+                        <div class="nav_content_center_2"></div>
+                        <div class="carousel-caption" >mp</div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <div class="prev_hullot_2">
+                    <div class="prev_arrow_2"></div>
+                    <div class="prev_line_2"></div>
+                </div>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <div class="next_hullot_2">
+                    <div class="next_arrow_2"></div>
+                    <div class="next_line_2"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--kết thúc thẻ nav-->
+    <!--bắt đầu thẻ main_ourworld-->
+
+<!--    <div class="main_ourworld">-->
+<!--        <div class="main_ourworld_content_left">-->
+<!--            <div class="main_ourworld_content_left_top">-->
+<!--                <img class="media-object" src="img/bautique_new01.jpg" alt="Our_World_Craftsmanship_Listing">-->
+<!--            </div>-->
+<!--            <div class="main_ourworld_content_left_bottom">-->
+<!--                <div class="main_ourworld_content_left_bottom_main">-->
+<!--                    <div class="main_ourworld_content_left_bottom_content"><span class="main_ourworld_content_left_bottom_content_span">boutiques</span></div>-->
+<!--                    <div></div>-->
+<!--                    <div class="main_ourworld_content_left_bottom_content"><a href="#" class="main_ourworld_content_left_bottom_content_craftsmanship notamenu"><span>boutiques</span></a></div>-->
+<!--                    <div class="main_ourworld_content_left_bottom_content"><a href="#" class="main_ourworld_content_left_bottom_content_learmore"><span class="main_ourworld_content_left_bottom_content_span_learmore text-nowrap">learn more</span></a></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="main_ourworld_content_right">-->
+<!--            <div class="main_ourworld_content_right_top">-->
+<!--                <img class="media-object" src="img/ourworldnew.jpg" alt="Our_World_Craftsmanship_Listing">-->
+<!--            </div>-->
+<!--            <div class="main_ourworld_content_right_bottom">-->
+<!--                <div class="main_ourworld_content_right_bottom_main">-->
+<!--                    <div class="main_ourworld_content_right_bottom_content"><span class="main_ourworld_content_right_bottom_content_span">our world</span></div>-->
+<!--                    <div></div>-->
+<!--                    <div class="main_ourworld_content_right_bottom_content"><a href="#" class="main_ourworld_content_right_bottom_content_partnerships notamenu"><span>craftsmanship</span></a></div>-->
+<!--                    <div class="main_ourworld_content_right_bottom_content"><a href="#" class="main_ourworld_content_right_bottom_content_learmore"><span class="main_ourworld_content_right_bottom_content_span_learmore text-nowrap">learn more</span></a></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;kết thúc thẻ main_ourworld&ndash;&gt;-->
+<!--    &lt;!&ndash;bắt đầu thẻ main_music&ndash;&gt;-->
+<!--    <div class="main_music">-->
+<!--        <div class="main_music_top">-->
+<!--                <img class="img" src="img/sportnew.jpg" alt="artmusic">-->
+<!--        </div>-->
+<!--        <div class="main_music_bottom">-->
+<!--            <div class="main_music_bottom_main">-->
+<!--                <div class="main_music_bottom_content"><span class="main_music_bottom_content_artmusic">sport</span></div>-->
+<!--                <div ></div>-->
+<!--                <div class="main_music_bottom_content ferari"><span class="main_music_bottom_content_richardorlinski">ferrari</span></div>-->
+<!--                <div class="main_music_bottom_content levemore"><a href="#" class="main_music_bottom_content_link nota"><span class="main_music_bottom_content_link_learmore">learn more</span></a></div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;kết thúc thẻ main_music&ndash;&gt;-->
+    <!--bắt đầu thẻ last new-->
+    <div class="header_lastnew">
+        <span class="header_lastnew_span">latest news</span>
+    </div>
+    <div class="container_lastnew">
+        <div class="container_lastnew_picture1">
+            <a  href="#"><img class="tager_last" src="img/late_1.jpg" alt="new"></a>
+        </div>
+        <div class="container_lastnew_picture2">
+            <a  href="#"><img class="tager_last" src="img/late2.png" alt="new"></a>
+        </div>
+        <div class="container_lastnew_picture3">
+            <a  href="#"><img class="tager_last" src="img/late3.jpg" alt="new"></a>
+        </div>
+        <div class="icon_itram"><a class="icon_itram_a" href="https://www.instagram.com/p/CByUOkHp-D7/" target="_blank"><i style="font-size:2.5vw; color: #FFFFFF" class="fa">&#xf16d;</i></a></div>
+    </div>
+    <div  class="container_lastnew_main">
+        <div class="container_lastnew_main1">
+            <a class="notamenu_las3" id="notamenu_las3" href="#">
+                        <span class="lastnew_h3">CLASSIC FUSION CHRONOGRAPH
+                            SPECIAL EDITION CAPRI</span>
+            </a>
+            <div class="container_lastnew_main1_line"></div>
+            <div class="container_lastnew_main1_span">
+                        <span class="lastnew_span">
+                            The Blue Grotto is a stunning natural phenomenon, and the inspiration for
+                               this third masterpiece created in tribute to Capri.
+
+                            When the Art of Fusion reveals itself in nature, we cannot help but be
+                             inspired! The new Classic Fusion Chronograph Special Edition Capri features
+                              the bright blue colour of the waters that sparkle in the depths of the cave.
+
+                            And just likethe magic of summer – its intensity and the fleeting impression
+                            of time it embodies – Hublot has created a special edition of just 30 numbered pieces,
+                            available exclusively in the boutique on the island.</span>
+            </div>
+        </div>
+        <div class="container_lastnew_main2">
+            <a href="#" class="notamenu_las4 a">
+                        <span class="lastnew_h3">CLASSIC FUSION AEROFUSION CHRONOGRAPH SPECIAL
+                            EDITION ‘BOUTIQUE MONACO’</span>
+            </a>
+            <div class="container_lastnew_main2_line"></div>
+            <div class="container_lastnew_main2_span">
+                        <span class="lastnew_span">Hublot celebrates the 1st anniversary of its boutique in Monaco and pays
+                            tribute to the Principality’s colours with the Classic Fusion Aerofusion
+                            Chronograph Special Edition ‘Boutique Monaco’</span>
+            </div>
+        </div>
+        <div class="container_lastnew_main3">
+                <div class="container_lastnew_main3_main">
+                    <div class="container_lastnew_main3_main_top">
+                        <a class="lastnew_img notamenu" href="#"><img src="img/hublot-profile-picture.png" alt="logo"></a>
+                    </div>
+                    <div class="container_lastnew_main3_main_center">
+                        <a class="lastnew_spanhutlot notamenu" href="#"><span class="container_lastnew_main3_main_center_span">@hublot</span></a>
+                    </div>
+                    <div class="container_lastnew_main3_main_bottom">
+                        <a class="lastnew_icon notamenu" href="#"><i style=' color: #1949b5' class='fas'>&#xf0a3;</i></a>
+                    </div>
+                </div>
+            <div class="container_lastnew_main3_span">
+                        <span class="container_lastnew_main3_span">It's time to start the 2020
+                            <a class="notamenu_a" href="#">#F1</a> season at the<a  class="notamenu_a" href="#">#AustrianGP</a>
+                            Forza<a  class="notamenu_a" href="#">@scuderiaferrari!</a>
+                            <a  class="notamenu_a" href="#">#HublotFerrari</a>
+                        </span>
+            </div>
+        </div>
+    </div>
+    <!--ket thuc thẻ last new-->
+    <!--bắt đầu thẻ learmore-->
+    <div class="conten_learnmore">
+        <div class="conten_learnmore_left"><a class="notamenu_aaa" href="#"><span class="notamenu_aaa_span">learn more</span></a></div>
+        <div class="conten_learnmore_center"><a class="notamenu_aaa" href="#"><span class="notamenu_aaa_span">learn more</span></a></div>
+        <div class="conten_learnmore_right"><a class="notamenu_aaa" href="#"><span class="notamenu_aaa_span">view on instagram <i class="fa">&#xf045;</i></span> </a></div>
+    </div>
+    <!--kết thúc thẻ learmore-->
+    <!--            Bắt đầu thẻ lastnew 222-->
+
+    <div class="lastnew2">
+        <div id="myCarousel_ln" class="carousel_ln slide" data-ride="carousel_ln">
+            <!-- Indicators -->
+            <ol class="carousel-indicators_ln lastnew">
+                <li data-target="#myCarousel_ln" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel_ln" data-slide-to="1"></li>
+                <li data-target="#myCarousel_ln" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner_ln">
+
+                <div class="item active">
+                    <a class="notamenu" href="#">
+                        <div class="last_new_top_2">
+                            <figure>
+                                <img class="img" src="img/late_1.jpg" alt="novelties">
+                            </figure>
+                        </div>
+                        <div class="last_new_center_2">
+                            <a class="notamenu_las1" href="#">
+                                <h3 class="lastnew_h32">CLASSIC FUSION CHRONOGRAPH SPECIAL EDITION CAPRI</h3>
+                            </a>
+                            <div class="container_lastnew_main2_line"></div>
+                            <div class="container_lastnew_main2_span">
+                        <span class="lastnew_span2">
+                            The Blue Grotto is a stunning natural phenomenon, and the inspiration for
+                               this third masterpiece created in  tribute to Capri.
+
+                            When the Art of Fusion reveals itself in nature, we cannot help but be
+                             inspired! The new  Classic Fusion  Chronograph Special Edition Capri features
+                              the bright blue colour of the waters that sparkle  in the depths of the cave.
+
+                            And just like the magic of summer – its intensity and the fleeting impression
+                            of time it embodies – Hublot  has created a special edition of just 30 numbered pieces,
+                            available exclusively in the  boutique on the island.</span>
+                            </div>
+                        </div>
+                        <div class="carousel-caption_ln text-left"><a class="notamenu_aaa" href="#"><span class="notamenu_aaaa">learn more</span></a></div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a class="notamenu" href="#">
+                        <div class="last_new_top_2">
+                            <figure>
+                                <img class="img" src="img/late2.png" alt="big bang">
+                            </figure>
+                        </div>
+                        <div class="last_new_center_2">
+                            <a class="notamenu_las2" href="#">
+                                <h3 class="lastnew_h33">CLASSIC FUSION AEROFUSION CHRONOGRAPH SPECIAL
+                                    EDITION ‘BOUTIQUE MONACO’</h3>
+                            </a>
+                            <div class="container_lastnew_main2_line"></div>
+                            <div class="container_lastnew_main2_span">
+                        <span class="lastnew_span2">Hublot celebrates the 1st anniversary of its boutique in Monaco and pays
+                            tribute to the Principality’s colours with the Classic Fusion Aerofusion
+                            Chronograph Special Edition ‘Boutique Monaco’</span>
+                            </div>
+                        </div>
+                        <div class="carousel-caption_ln text-left"><a class="notamenu_aaa" href="#"><span class="notamenu_aaaa">learn more</span></a></div>
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a class="notamenu" href="#">
+                        <div class="last_new_top_2">
+                            <figure>
+                                <img class="img" src="img/late3.jpg" alt="classicfusion">
+                                <div class="icon_itram"><a class="icon_itram_a" href="https://www.instagram.com/p/CByUOkHp-D7/" target="_blank"><i style="color: #FFFFFF" class="fa icon">&#xf16d;</i></a></div>
+                            </figure>
+                        </div>
+                        <div class="last_new_center_2">
+                                <div class="container_lastnew_main3_main">
+                                    <div class="container_lastnew_main3_main_top">
+                                        <a href="#" class="notamenu_bottom"><img class="img-fluid main-top" src="img/hublot-profile-picture.png" alt="logo"></a>
+                                    </div>
+                                    <div class="container_lastnew_main3_main_center">
+                                        <a href="#" class="notamenu_bottom"><span>@hublot</span></a>
+                                    </div>
+                                    <div class="container_lastnew_main3_main_bottom">
+                                        <a href="#" class="notamenu_bottom iconbottom"><i style='color: #1949b5' class='fas'>&#xf0a3;</i></a>
+                                    </div>
+                                </div>
+                                <div class="container_lastnew_main3_span">
+                                        <span class="lastnew_span2">It's time to start the 2020
+                                            <a class="notamenu_a" href="#">#F1</a> season at the<a  class="notamenu_a" href="#">#AustrianGP</a><br>
+                                            Forza<a  class="notamenu_a" href="#">@scuderiaferrari!</a>
+                                            <a  class="notamenu_a" href="#">#HublotFerrari</a>
+                                        </span>
+                                </div>
+                        </div>
+                        <div class="carousel-caption_ln text-left"><a class="notamenu_aaa" href="#"><span class="notamenu_aaaa">view on instagram <i id="fa_iconlastnew" class="fa">&#xf045;</i></span></a></div>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control_ln lastnew" href="#myCarousel_ln" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left_ln"></span>
+                <div class="prev_hullot_ln">
+                    <div class="prev_arrow_ln lastnew"></div>
+                    <div class="prev_line_ln lastnew"></div>
+                </div>
+            </a>
+            <a class="right carousel-control_ln lastnew" href="#myCarousel_ln" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right_ln"></span>
+                <div class="next_hullot_ln">
+                    <div class="next_arrow_ln lastnew"></div>
+                    <div class="next_line_ln lastnew"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <%- include("fooder(huy)") %>
+</section>
+</body>
+</html>
+
