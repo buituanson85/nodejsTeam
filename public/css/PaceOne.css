@@ -156,10 +156,7 @@ body {
     padding: 0!important;
     margin: 0!important;
 }
-.btn{
-    padding: 0!important;
-    margin: 0!important;
-}
+
 .modal-body-gender-menu-span{
     font-size: 0.7vw;
     text-transform: uppercase;
@@ -467,6 +464,7 @@ body {
     padding: 1vw 3vw!important;
     font-size: 1.1vw!important;
     text-transform: uppercase!important;
+    background-color: #cccccc;
 }
 .btn.btn-secondary:hover{
     background-color: #FFFFFF!important;
@@ -1127,3 +1125,84 @@ body {
     border-top: 0.05vw solid #cccccc;
 }
 
+
+.image-filter {
+    text-align: center;
+    display: none;
+}
+
+.show {
+    display: block!important;
+}
+
+.container {
+    overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+    outline: none;
+    padding: 1.35vw 0;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+.btn.btn-default{
+    padding: 0.8vw 2.5vw !important;
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    border-radius: 0.1vw!important;
+}
+
+.btn-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+.btn.btn-default {
+    color: #171717;
+    background-color: #cccccc;
+    border-color: #FFFFFF!important;
+}
+
+.btn.btn-default:hover {
+    color: #171717;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF!important;
+    font-weight: 700;
+}
+
+.btnr.btn-default:focus, .btn.btn-default.focus {
+    color: #171717;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF!important;
+    box-shadow: #FFFFFF;
+    font-weight: 700;
+}
+
+.btn.btn-default.disabled, .btn.btn-default:disabled {
+    color: #171717;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF!important;
+    font-weight: 700;
+}
+
+.btn.btn-default:not(:disabled):not(.disabled):active, .btn.btn-default:not(:disabled):not(.disabled).active,
+.show > .btn.btn-default.dropdown-toggle {
+    color: #171717;
+    background-color: #FFFFFF!important;
+    border-color: #FFFFFF!important;
+    font-weight: 700;
+}
+
+.btn.btn-default:not(:disabled):not(.disabled):active:focus, .btn.btn-default:not(:disabled):not(.disabled).active:focus,
+.show > .btn.btn-default.dropdown-toggle:focus {
+    box-shadow: #FFFFFF;
+}

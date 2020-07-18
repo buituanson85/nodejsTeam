@@ -91,4 +91,9 @@ app.get("/tuan-son",function (req,res) {
     let PaceOne = {};
     res.render("PaceOne");
 })
+app.get("/huy-nguyen",function (req,res) {
+    let PaceOneId = req.params.id;
+    let PaceOne = {};
+    res.render("teamwork-huy");
+})
 

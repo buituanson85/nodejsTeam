@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100%;
+    background-image: url("../img/anhnen-huy.jpg");
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    color: #f5f5f5;
+    padding-top: 50px;
+    text-align: center;
+
+}
+.container-1{
+    width: 100%;
+    background-color: #0f0f0f;
+    float: left;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 30px;
+
+}
+.figcaption1{
+    font-size: 20px;
+}
+.figcaption2{
+    font-size: 25px;
+    font-family: 'Yellowtail', cursive;
+}
+
+form{
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
+     margin: auto;
+     justify-content: center;
+}
+.div1{
+    height: 500px;
+
+}
+figure{
+    margin: 15px 0px;
+    transition: width 1s;
+    position: relative;
+}
+figure:hover{
+    width: 500px;
+}
+img{
+    padding: 0;
+}
+
+.fontss{
+    color: #d58512;
+    margin: 0px;
+}
+.div1{
+    height: 500px;
+}
+
+.div-fig{
+    width: 65%;
+    height: 0.5px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 8px;
+    right: 25px;
+}
+
+.container-fluid{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+}
+
+.li{
+    color: white;
+    font-size: 10px;
+    padding: 30px;
+    float: left;
+}
+.name{
+    margin: 30px 0;
+}
+a{
+    color: white; !important;
+    text-decoration: none; !important;
+}
+a:hover{
+    color: white; !important;
+    text-decoration: none; !important;
+}
+.name-a:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: 1s width ;
+}
+.name-a:hover:after{
+    width: 100%;
+}
+#li-li{
+    justify-content: center;
+    display: flex;
+    margin-top: 0px;
+    padding: 0px;
+}
+.bottom-li{
+    margin: 0px;
+    padding: 0px;
+    color: red;
+}
+.bottom-li:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    color: red;
+    background-color: red;
+    transition: 1s width ease ;
+}
+.bottom-li:hover:after{
+    width: 100%;
+}
+.icon-a{
+    font-size: 20px;
+    color: #f5f5f5;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.foot-bottom{
+    color: #bfbfbf;
+    font-size: 10px;
+}
