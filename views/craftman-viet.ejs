@@ -9,6 +9,7 @@
     <script type="text/javascript" src="libs/bootstrap4/js4/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/craftman.css"/>
     <link rel="stylesheet" href="css/navbarOnly.css">
+    <link rel="stylesheet" href="css/preloader.css"/>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css" rel="stylesheet">
@@ -19,6 +20,11 @@
     <link href="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css" rel="stylesheet">
 </head>
 <body>
+<!----------Preloader----------->
+<div class="loader-bg">
+    <div class="loader"><img class="loader-effect" src="img/preloader/logowhite.jpg"></div>
+</div>
+<!-----x----Preloader-----x----->
 <header>
     <nav class="navbar navbar-light navbar-expand-md bg-white justify-content-md-center justify-content-start v-myNav">
         <button onclick="OpenCollapse()" class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
@@ -384,7 +390,9 @@
         });
     });
 
-
+    setTimeout(function () {
+        $(".loader-bg").fadeToggle();
+    },3000);
 
 </script>
 
