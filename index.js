@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
 
-app.listen(6010,function () {
-    console.log("server is running...");
-});
+// app.listen(6010,function () {
+//     console.log("server is running...");
+// });
 app.use(express.static("public"));
 // sử dụng ejs làm view engine
 app.set("view engine","ejs");
@@ -95,5 +95,11 @@ app.get("/huy-nguyen",function (req,res) {
     let PaceOneId = req.params.id;
     let PaceOne = {};
     res.render("teamwork-huy");
+})
+
+app.get("/hai-nam",function (req,res) {
+    let PaceOneId = req.params.id;
+    let PaceOne = {};
+    res.render("try");
 })
 

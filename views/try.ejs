@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="libs/bootstrap4/css4/bootstrap4css.css" type="text/css">
+    <link rel="stylesheet" href="css/hublotlista.css">
+    <script src="https://kit.fontawesome.com/7d186d09cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="js/jquery.js">
+    <script type="text/javascript" src="js/validator.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <ul class="sd nav justify-content-end ">
+                <li class="nav-item ">
+                     <i onclick="clickHere()"  id="phone"><a href="#"  class="fas fa-phone-alt" style="color: white; text-decoration: none"></a> &nbsp;</i>
+                </li>
+                &nbsp;
+                <li class="nav-item ">
+                    <span class="first">Contact us</span>
+                </li>
+                &nbsp;
+                <li  class="nav-item">
+                    <div><a onclick="clickHere()" href="#" class="second" style="color: white">+41 (0)22 990 99 80</a></div>
+                </li>
+                &nbsp;
+                <li class="nav-item"><div class="third ">&nbsp;|&nbsp;</div> </li>
+                &nbsp;
+                <li  class="nav-item">
+                    <div class="dropdown">
+                        <button id="dLabel" type="button" class=" dropdown-toggle" data-toggle="dropdown">
+                            English
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item active" href="#">English</a>
+                            <a class="dropdown-item" href="#">Français</a>
+                            <a class="dropdown-item" href="#">Deutsch</a>
+                            <a class="dropdown-item" href="#">Español</a>
+                            <a class="dropdown-item" href="#">Português</a>
+                            <a class="dropdown-item" href="#">Русский</a>
+                            <a class="dropdown-item" href="#">日本語</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item"><div class="third ">&nbsp;|&nbsp;</div> </li>
+                &nbsp;
+                <li class="nav-item">
+                    <div class="four"><a href="#" style="color: white; font-weight: 800"><u>hublots.com</u></a> </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="content">
+                <div id="logo" class="ifont ifont-logo col-md-12">
+                    <img src="img/HUblot.png" style="width: 150px; height: 80px;" >
+                    <p class="bd" style="border-top: 1px solid #666; width: 50px;margin: 0px auto;margin-top: 30px"></p>
+                </div>
+
+                <div class="watch">
+                    <img id="optionalstuff" src="img/hublotclockbg.png" >
+                </div>
+
+                <div class="u row  justify-content-center">
+                    <div id="form" class="col-lg-7 col-9 justify-content-center">
+                        <p class="form-first">Become part of the exclusive Hublot owners club</p>
+                        <p class="form-second">Register your Hublot watch to unlock the full membership experience.</p>
+                        <button type="button" class="signUp btn" >SIGN UP AND REGISTER YOUR WATCH</button>
+                        <p class="form-second one">Or Log-in with your Hublotista access</p>
+
+                    </div>
+                </div>
+                <div class="row two justify-content-center">
+                    <form id="content-1"  data-toggle="validator" class=" col-lg-8 col-9" role="form" action="#" method="get">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4 col-12">
+                                    <label style="font-size: 12px; color: white;letter-spacing: 0em">EMAIL</label>
+                                    <input name="fn" type="text" class="form-control" style="padding: 22px  22px 22px 10px; font-size: 20px" data-error="Dien dung" required/>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="col-md-4 col-12" >
+                                    <label style="font-size: 12px; color: white;letter-spacing: 0em">PASSWORD </label>
+                                    <input name="fn" type="text" class="form-control" style="padding: 22px  22px 22px 10px; font-size: 20px" required />
+                                </div>
+                                <div class=" col-md-4 col-12">
+                                    <button type="submit" class="logIn btn btn-dark" data-error="jjkj" >LOG IN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <a href="#" id="forgotPass" class="row justify-content-center" data-toggle="modal" data-target="#myModal">Forgot this password?</a>
+
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal" >
+                    <div class="modal-dialog" >
+                        <div class="modal-content col-lg-12" style="width: 500px">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title" style="letter-spacing: 0; font-size: 20px; "><b>ENTER YOUR EMAIL</b><br>
+                                    To request a new password and join Hublotista</h4>
+                                <button type="button" class="close" data-dismiss="modal" style="font-size: 20px;">&times;</button>
+                            </div>
+                            <!-- Modal body -->
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1" style="font-size: 18px; letter-spacing: 0;">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" style="font-size: 15px;">
+                                    <small id="emailHelp" class="form-text text-muted"style="font-size: 12.5px; letter-spacing: 0; margin-top: 5px">We'll never share your email with anyone else.</small>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary" style="width: 80px; height: 30px; font-size: 15px;">Submit</button>
+                            </form>
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal" style="width: 80px; height: 30px; font-size: 15px;">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="a">
+                    <section class="features-list__item row flex-items-xs-center">
+                        <div class="bullet">
+                            <ul>
+                                <li><i id="bullet1" class="fas fa-circle"></i></li>
+                                <li><i class="fas fa-circle"></i></li>
+                                <li><i class="fas fa-circle"></i></li>
+                                <li><i class="fas fa-circle"></i></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div id="imgHL" class="col-md-12 col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                                <img src="img/hublotlita.1.jpg">
+                            </div>
+                            <div id="fontRed" class="col-md-12 col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                                <div id="fontRed-a">
+                                    <div class="fontRed-a-1">
+                                        <div class="fR1">warranty</div>
+                                        <div class="fR2">FOR EACH WATCH CURRENTLY UNDER WARRANTY. RECEIVE UP TO ONE YEAR OF ADDITIONAL WARRANTY.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="a">
+                    <section class="features-list__item row flex-items-xs-center">
+                        <div class="bullet">
+                            <ul>
+                                <li><i class="fas fa-circle"></i></li>
+                                <li><i id="bullet2" class="fas fa-circle"></i></li>
+                                <li><i class="fas fa-circle"></i></li>
+                                <li><i class="fas fa-circle"></i></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div id="EXPERIENCE" class="col-md-12 col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                                <img src="img/hublotlita.2.jpg">
+                            </div>
+                            <div id="fontWhite" class="col-md-12 col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                                <div id="fontWhite-a">
+                                    <div class="fontWhite-a-1">
+                                        <div class="fW1">EXPERIENCE</div>
+                                        <div class="fW2">JOIN US FOR AN ANNUAL PROGRAM OF EXCLUSIVE EVENTS TAKING PLACE WORLDWIDE.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="a">
+                    <section class="features-list__item row flex-items-xs-center">
+                        <div class="bullet">
+                            <ul>
+                                <li><i class="fas fa-circle"></i></li>
+                                <li><i class="fas fa-circle"></i></li>
+                                <li><i id="bullet3" class="fas fa-circle"></i></li>
+                                <li><i class="fas fa-circle"></i></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div id="DISCOVER" class="col-md-12 col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                                <img src="img/hublotlita.3.jpg">
+                            </div>
+                            <div id="fontRed1" class="col-md-12 col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                                <div id="fontRed-b">
+                                    <div class="fontRed-a-1">
+                                        <div class="fR1">DISCOVER</div>
+                                        <div class="fR2">GET ACCESS TO OUR WORLD AND DISCOVER THE ART OF FUSION THROUGH A MANUFACTURE TOUR.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="a">
+                    <section class="features-list__item row flex-items-xs-center">
+                        <div class="bullet">
+                            <ul>
+                                <li><i class="fas fa-circle"></i></li>
+                                <li><i class="fas fa-circle"></i></li>
+                                <li><i class="fas fa-circle"></i></li>
+                                <li><i id="bullet4" class="fas fa-circle"></i></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div id="OWNERSHIP" class="col-md-12 col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                                <img src="img/hublotlita.4.jpg">
+                            </div>
+                            <div id="fontWhite1" class="col-md-12 col-xs-12 col-sm-12 col-lg-6 col-xl-6">
+                                <div id="fontWhite-b">
+                                    <div class="fontWhite-a-1">
+                                        <div class="fW1">OWNERSHIP</div>
+                                        <div class="fW2">GET ALL THE INFORMATION RELATED TO YOUR WATCHES IN ONE SECURE PLACE.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="foot1" class="container-fluid"></div>
+        <div id="foot2" class="container-fluid padding">
+            <div class="row text-center paddigng">
+                <div id="logo-2" class="ifont ifont-logo col-md-12"><a href="#"><img src="img/hub.png" style="width: 25px; height: 25px"></a> </div>
+                <div class="foot-first col-12">
+                © 2020 HUBLOT - ALL INTELLECTUAL PROPERTY RIGHTS RESERVED
+                </div>
+                <div class="name col-md-12 col-12 ">
+                    <a href="#" class="name-1">PRIVACY</a>
+                    <a href="#" class="name-1"> RESPONSIBLE JEWELLERY COUNCIL</a>
+                    <a href="#" class="name-1">JOBS</a>
+                    <a href="#" class="name-1">PRESS</a>
+                    <a href="#" class="name-1">SERVICES</a>
+                    <a href="#" class="name-1"> INSTRUCTION MANUALS</a>
+                    <a href="#" class="name-1">MAGAZINE</a>
+                    <a href="#" class="name-1">CONTACT US</a>
+                    <a >
+                        <select name="faculty" style="background-color: #0b0b0b; border: none;color: #fff;text-transform: uppercase">
+                            <option value="toan">ENGLISH</option>
+                            <option value="dientu">Français</option>
+                            <option value="cntt">Deutsch</option>
+                            <option value="cntt">Español</option>
+                            <option value="cntt">Português</option>
+                            <option value="cntt">Русский</option>
+                            <option value="cntt">日本語</option>
+                    </select></br></br>
+                    </a>
+                </div>
+
+                <div class="brand col-12">
+                    <a class="icon" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="icon" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="icon" href="#"><i class="fab fa-pinterest"></i></a>
+                    <a class="icon" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="icon" href="#"><i class="fab fa-weibo"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script>
+    function clickHere() {
+        alert("Call +41 (0)22 990 99 80 ?");
+    }
+
+</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
