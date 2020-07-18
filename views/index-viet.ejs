@@ -92,5 +92,14 @@
     function CloseSearch() {
         $("#myOverlay").fadeOut(0);
     }
+    // Preloader
+    //Preloader auto on load
+    // $(window).on("load", function () {
+    //     $(".loader-bg").fadeToggle();
+    // });
 
+    //Preloader set fixed time
+    setTimeout(function () {
+        $(".loader-bg").fadeToggle();
+    },3000);
 </script>
