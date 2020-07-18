@@ -20,45 +20,47 @@
     <video id="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
         <source src="videos/HUBLOT%20BIG%20BANG%20MILLENNIAL%20PINK.mp4" type="video/mp4"/>
     </video>
-    <div class="header_container">
-        <div class="header" id="header">
-            <div class="header_left">
-                <div class="header_menu">
-                    <div class="burger" id="burge" onclick="Auto()">
-                        <div class="burger__patty"></div>
-                        <div class="burger__patty"></div>
-                        <div class="burger__patty"></div>
+    <a href="#" class="header-a">
+        <div class="header_container">
+            <div class="header" id="header">
+                <div class="header_left">
+                    <div class="header_menu">
+                        <div class="burger" id="burge" onclick="Auto()">
+                            <div class="burger__patty"></div>
+                            <div class="burger__patty"></div>
+                            <div class="burger__patty"></div>
+                        </div>
+
+                        <nav class="menu">
+
+                        </nav>
                     </div>
 
-                    <nav class="menu">
-
-                    </nav>
+                    <div class="header_left_logo">
+                        <a href="#"><img src="img/logoviet.png" alt="logo"></a>
+                    </div>
+                    <div class="header_left_name">
+                        <div class="header_left_watches"><a href="#"><span class="header_left_name_span notamenu2">watches</span></a></div>
+                        <div class="header_left_ourworld"><a href="#"><span class="header_left_name_span notamenu2">our world</span></a></div>
+                        <div class="header_left_boutiques"><a href="#"><span class="header_left_name_span notamenu2">boutiques</span></a></div>
+                    </div>
                 </div>
-
-                <div class="header_left_logo">
-                    <a href="#"><img src="img/logoHublot.jpg" alt="logo"></a>
+                <div class="header_right">
+                    <div class="header_right_hub"><a href="#" class="header_right_hub_hublotista notamenu2" id="header_right_hub_hublotista">hublotista&nbsp&nbsp<i onclick="focus()" style="font-size:1vw" class="fa" id="fa">&#xf045;</i></a></div>
+                    <div class="header_right_icon1"><a href="#"><i class="fa notamenu2">&#xf08a;</i></a></div>
+                    <div class="header_right_icon2"><a href="#"><i  class='fas notamenu2'>&#xf002;</i></a></div>
+                    <div class="header_right_icon3"><a href="#"><i  class="fa notamenu2">&#xf290;</i></a></div>
                 </div>
-                <div class="header_left_name">
-                    <div class="header_left_watches"><a href="#"><span class="header_left_name_span notamenu2">watches</span></a></div>
-                    <div class="header_left_ourworld"><a href="#"><span class="header_left_name_span notamenu2">our world</span></a></div>
-                    <div class="header_left_boutiques"><a href="#"><span class="header_left_name_span notamenu2">boutiques</span></a></div>
-                </div>
-            </div>
-            <div class="header_right">
-                <div class="header_right_hub"><a href="#" class="header_right_hub_hublotista notamenu2" id="header_right_hub_hublotista">hublotista&nbsp&nbsp<i onclick="focus()" style="font-size:1vw" class="fa" id="fa">&#xf045;</i></a></div>
-                <div class="header_right_icon1"><a href="#"><i class="fa notamenu2">&#xf08a;</i></a></div>
-                <div class="header_right_icon2"><a href="#"><i  class='fas notamenu2'>&#xf002;</i></a></div>
-                <div class="header_right_icon3"><a href="#"><i  class="fa notamenu2">&#xf290;</i></a></div>
             </div>
         </div>
-    </div>
+    </a>
     <!-- kết thúc the header-->
     <!--        Phần 1     -->
     <section class="section">
         <div class="container-fluid list_case">
             <div class="d-flex">
                 <div class="row">
-                    <div class="col-auto watch"><a class="notamenu" href="#"><span class="watch_watch">watchs</span></a></div>
+                    <div class="col-auto watch"><a class="notamenu2" href="#"><span class="watch_watch">watchs</span></a></div>
                 </div>
                 <div class="row">
                     <div class="col-auto icon"><span><i class='fas'>&#xf105;</i></span></div>
@@ -379,7 +381,7 @@
         <div class="container-fluid text-center">
             <div class="find_h1p_1">
                 <div class="col-12">
-                    <h1 class="h1_find">FIND YOUR HUBLOT</h1>
+                    <h1 class="h1_find"><span>FIND YOUR HUBLOT</span></h1>
                 </div>
                 <div class="col-12 span_1">
                     <p class="p_find">Explore all of our unique range of watches to find the perfect</p>
@@ -408,50 +410,50 @@
             <button class="btn btn-default" onclick="filterSelection('cars')">mp</button>
         </div>
 </div>
-<script type="text/javascript">
-    filterSelection("all2")
-    function filterSelection(c) {
-        var x, i;
-        x = document.getElementsByClassName("filterDiv");
-        if (c == "all2") c = "";
-        for (i = 0; i < x.length; i++) {
-            w3RemoveClass(x[i], "show");
-            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-        }
-    }
+<!--<script type="text/javascript">-->
+<!--    filterSelection("all2")-->
+<!--    function filterSelection(c) {-->
+<!--        var x, i;-->
+<!--        x = document.getElementsByClassName("filterDiv");-->
+<!--        if (c == "all2") c = "";-->
+<!--        for (i = 0; i < x.length; i++) {-->
+<!--            w3RemoveClass(x[i], "show");-->
+<!--            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");-->
+<!--        }-->
+<!--    }-->
 
-    function w3AddClass(element, name) {
-        var i, arr1, arr2;
-        arr1 = element.className.split(" ");
-        arr2 = name.split(" ");
-        for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-        }
-    }
+<!--    function w3AddClass(element, name) {-->
+<!--        var i, arr1, arr2;-->
+<!--        arr1 = element.className.split(" ");-->
+<!--        arr2 = name.split(" ");-->
+<!--        for (i = 0; i < arr2.length; i++) {-->
+<!--            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}-->
+<!--        }-->
+<!--    }-->
 
-    function w3RemoveClass(element, name) {
-        var i, arr1, arr2;
-        arr1 = element.className.split(" ");
-        arr2 = name.split(" ");
-        for (i = 0; i < arr2.length; i++) {
-            while (arr1.indexOf(arr2[i]) > -1) {
-                arr1.splice(arr1.indexOf(arr2[i]), 1);
-            }
-        }
-        element.className = arr1.join(" ");
-    }
+<!--    function w3RemoveClass(element, name) {-->
+<!--        var i, arr1, arr2;-->
+<!--        arr1 = element.className.split(" ");-->
+<!--        arr2 = name.split(" ");-->
+<!--        for (i = 0; i < arr2.length; i++) {-->
+<!--            while (arr1.indexOf(arr2[i]) > -1) {-->
+<!--                arr1.splice(arr1.indexOf(arr2[i]), 1);-->
+<!--            }-->
+<!--        }-->
+<!--        element.className = arr1.join(" ");-->
+<!--    }-->
 
-    // Add active class to the current button (highlight it)
-    var btnContainer = document.getElementById("myBtnContainer");
-    var btns = btnContainer.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function(){
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-        });
-    }
-</script>
+<!--    // Add active class to the current button (highlight it)-->
+<!--    var btnContainer = document.getElementById("myBtnContainer");-->
+<!--    var btns = btnContainer.getElementsByClassName("btn");-->
+<!--    for (var i = 0; i < btns.length; i++) {-->
+<!--        btns[i].addEventListener("click", function(){-->
+<!--            var current = document.getElementsByClassName("active");-->
+<!--            current[0].className = current[0].className.replace(" active", "");-->
+<!--            this.className += " active";-->
+<!--        });-->
+<!--    }-->
+<!--</script>-->
 </section>
 <!--    Phần 41      -->
 <section class="section main">
