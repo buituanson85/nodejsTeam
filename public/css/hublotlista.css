@@ -261,7 +261,7 @@ ul {
 }
 @media (max-width: 576px) {
     .a{
-        margin-bottom: 90%;
+        margin-bottom: 100%;
     }
 }
 #fontRed-a{
@@ -399,7 +399,7 @@ ul {
 
 @media (max-width: 576px) {
     #fontWhite-a{
-        height: 300px;
+        height: 350px;
         width:  93.4%;
     }
 }
@@ -503,7 +503,7 @@ ul {
 
 @media (max-width: 576px) {
     #fontRed-b{
-        height: 300px;
+        height: 350px;
         width:  93.4%;
     }
 }
@@ -549,7 +549,7 @@ ul {
 
 @media (max-width: 576px) {
     #fontWhite-b{
-        height: 300px;
+        height: 350px;
         width: 93.4%;
     }
 }

@@ -40,13 +40,15 @@
     line-height: 0px;
 }
 
-.container-fluid{
+.container-fluid.foodeer-huy{
     width: 100%;
     height: auto;
     background-color: black;
     text-align: center;
 }
+.name-aa{
 
+}
 
 .li{
     color: white;

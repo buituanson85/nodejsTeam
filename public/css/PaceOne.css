@@ -25,11 +25,20 @@ body {
     align-items: center;
     padding: 0 1.35%;
 }
-/*.header:hover{*/
-/*    background-color: #FFFFFF;*/
-/*    border-top: 0.05vw solid #cccccc;*/
-/*    border-bottom: 0.05vw solid #cccccc;*/
-/*}*/
+.header:hover{
+    background-color: #FFFFFF;
+    border-top: 0.05vw solid #cccccc;
+    border-bottom: 0.05vw solid #cccccc;
+}
+.header:hover a{
+    color: black!important;
+}
+.header:hover a i{
+    color: black!important;
+}
+.header:hover a span{
+    color: black!important;
+}
 .header-a:hover{
     color: #171717!important;
 }
@@ -2089,6 +2098,6 @@ body {
     text-align: center;
     /*display: none;*/
 }
-/*.section.main{*/
-/*    overflow: hidden;*/
-/*}*/
+.section.main{
+    overflow: hidden;
+}

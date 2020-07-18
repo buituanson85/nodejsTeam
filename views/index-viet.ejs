@@ -1,12 +1,9 @@
-
-<!--Navigation-->
 <header>
-
-    <nav class="navbar navbar-light navbar-expand-md bg-white justify-content-md-center justify-content-start myNav">
+    <nav class="navbar navbar-light navbar-expand-md bg-white justify-content-md-center justify-content-start v-myNav">
         <button onclick="OpenCollapse()" class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand mybrand" href="#">HUBLOT</a>
+        <a class="navbar-brand v-mybrand" href="#">HUBLOT</a>
         <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
             <ul class="navbar-nav mx-auto text-md-center text-left navbar-nav-1">
                 <li class="nav-item">
@@ -20,7 +17,7 @@
                     <a class="nav-link text-black nav-link-hover" href="#">BOUTIQUES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-black nav-link-hover" href="#">HUBLOTISTA</a>
+                    <a class="nav-link text-black nav-link-hover" href="/hai-nam">HUBLOTISTA</a>
                 </li>
 
             </ul>
@@ -31,9 +28,9 @@
             </ul>
         </div>
         </div>
-        <div id="myOverlay" class="overlay">
-            <span class="closebtn" onclick="CloseSearch()" title="Close Search">x</span>
-            <div class="overlay-content">
+        <div id="myOverlay" class="v-overlay">
+            <span class="v-closebtn" onclick="CloseSearch()" title="Close Search">x</span>
+            <div class="v-overlay-content">
                 <form action="">
                     <input type="text" placeholder="Search for..." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
@@ -45,21 +42,19 @@
 
 
 
-
-
 <!--Watches Slides-->
-<div class="section-main">
+<div class="section-main w-100">
     <picture>
         <img src="img/home/background-millennial-pink-1.jpg" alt="Background" class="section-main-picture" style="background-attachment: fixed">
     </picture>
     <img class="section-main-watches" src="img/home/watch%20pink.png" alt="Watch" >
-    <div class="container-fluid section-main-caption">
+    <div class="section-main-caption">
         <div class="row">
-            <div class="col-xs-2 col-md-4 col-lg-4">
+            <div class="col-xs-2 col-md-6 col-lg-6">
                 <div class="text-white text-responsive">
                     <h6 class="text-responsive">AVAILABLE NOW</h6>
                     <h1 class="font-weight-bold section-big-text text-responsive">BIG BANG MILLENNIAL PINK</h1>
-                    <a href="#" class="text-responsive text-white cap-hover">DISCOVER MORE</a>
+                    <a href="#" class="text-responsive text-white cap-hover notamenu">DISCOVER MORE</a>
                 </div>
             </div>
         </div>

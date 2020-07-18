@@ -226,10 +226,10 @@ img{
 }
 .nav_content_top img{
     margin: 0 auto;
-    min-width: 90%;
-    min-height: 90%;
-    max-width: 90%;
-    max-height: 90%;
+    min-width: 85%;
+    min-height: 85%;
+    max-width: 85%;
+    max-height: 85%;
 }
 
 .nav_content_center{
@@ -1247,12 +1247,12 @@ img{
 /*ket thuc update */
 /*bắt đầu fooder */
 .container-footer{
-    height: 330px;
+    height: auto;
     width: 100%;
     padding: 60px 60px 30px 80px ;
     background-color:#262626 ;
     float: left;
-    text-align: center;
+    text-align: left;
 }
 .container-footer2{
     padding-bottom: 200px;
@@ -1281,7 +1281,7 @@ img{
     line-height: 0px;
 }
 
-.container-fluid{
+.container-fluid.foodeer-huy{
     width: 100%;
     height: auto;
     background-color: black;
