@@ -8,6 +8,9 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="libs/bootstrap4/js4/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/craftman.css"/>
+    <link rel="stylesheet" href="css/navbarOnly.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -16,6 +19,47 @@
     <link href="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css" rel="stylesheet">
 </head>
 <body>
+<header>
+    <nav class="navbar navbar-light navbar-expand-md bg-white justify-content-md-center justify-content-start v-myNav">
+        <button onclick="OpenCollapse()" class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand v-mybrand" href="#">HUBLOT</a>
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            <ul class="navbar-nav mx-auto text-md-center text-left navbar-nav-1">
+                <li class="nav-item">
+                    <a class="nav-link text-black nav-link-hover" href="#"><span>WATCHES</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black nav-link-hover" href="#">OUR WORLD</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-black nav-link-hover" href="#">BOUTIQUES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black nav-link-hover" href="/hai-nam">HUBLOTISTA</a>
+                </li>
+
+            </ul>
+            <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap navbar-nav-2">
+                <li class="nav-item"><a class="nav-link text-black" href="#"><i class='far fa-heart'></i></a> </li>
+                <li class="nav-item"><a class="nav-link text-black openBtn" href="#" onclick="OpenSearch()"><i class="fa fa-search"></i></a> </li>
+                <li class="nav-item"><a class="nav-link text-black" href="#"><i class="fab fa-opencart"></i></a> </li>
+            </ul>
+        </div>
+        </div>
+        <div id="myOverlay" class="v-overlay">
+            <span class="v-closebtn" onclick="CloseSearch()" title="Close Search">x</span>
+            <div class="v-overlay-content">
+                <form action="">
+                    <input type="text" placeholder="Search for..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
 <!--Intro Clip-->
     <div class="introduction">
         <div class="container-fluid">
@@ -301,7 +345,7 @@
         </div>
     </div>
 </div>
-
+<%- include("fooder") %>
 <!--Script-->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -344,6 +388,6 @@
 
 </script>
 
-<%- include("fooder") %>
+
 </body>
 </html>
