@@ -394,6 +394,15 @@
     .btn-collection-span{
         font-size: 1.5vw;
     }
+    .main_ourworld_content_left_bottom_content_span_learmore{
+        border: 0.05vw solid #171717;
+        padding: 2% 3%;
+        background-color: #FFFFFF;
+        color: #171717;
+        display: inline-block;
+        position: relative;
+        transition: all 1.4s cubic-bezier(0.23, 1, 0.32, 1);
+    }
 }
 /*     250%      */
 @media (max-width: 614px) {

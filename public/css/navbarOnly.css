@@ -1,14 +1,17 @@
 html, body {
     font-family: GothamPro, sans-serif;
 }
-.myNav{
+header{
+    background: white;
+}
+.v-myNav{
     border-left: 1px solid #f0f0f0;
     border-right: 1px solid #f0f0f0;
     margin-left: 15px ;
     margin-right: 15px ;
     z-index: 9999;
 }
-.mybrand {
+.v-mybrand {
     padding-left: 10px;
 }
 .navbar-nav-1 .nav-link {
@@ -40,7 +43,7 @@ html, body {
 
 
 /*Search Box*/
-.overlay{
+.v-overlay{
     height: 100%;
     width: 100%;
     display: none;
@@ -52,7 +55,7 @@ html, body {
     background-color: rgba(0,0,0,0.9);
 
 }
-.overlay-content{
+.v-overlay-content{
     position: relative;
     top: 46%;
     width: 80%;
@@ -61,7 +64,7 @@ html, body {
     margin: auto;
     transition: 3s all ease-in-out;
 }
-.overlay .closebtn{
+.v-overlay .v-closebtn{
     position: absolute;
     top: 20px;
     right: 45px;
@@ -69,10 +72,10 @@ html, body {
     cursor: pointer;
     color: white;
 }
-.overlay .closebtn:hover{
+.v-overlay .v-closebtn:hover{
     color: #ccc;
 }
-.overlay input[type=text]{
+.v-overlay input[type=text]{
     padding: 15px;
     font-size: 17px;
     border: none;
@@ -80,14 +83,14 @@ html, body {
     width: 80%;
     background: white;
 }
-.overlay input[type=text]:hover{
+.v-overlay input[type=text]:hover{
     background: #f1f1f1;
 }
-.overlay button{
+.v-overlay button{
     float: left;
     width: 20%;
     padding: 15px;
-    background: #dd;
+    background: #dddddd;
     font-size: 17px;
     border: none;
     cursor: pointer;
@@ -114,7 +117,7 @@ html, body {
 }
 
 @media (max-width: 768px) {
-    .myNav {
+    .v-myNav {
         border-left: none;
         border-right: none;
         margin-left: 0;
@@ -133,7 +136,7 @@ html, body {
         color: white;
         animation-name: menuShow1;
         animation-delay: 1s;
-        animation-duration: 1s;
+        animation-duration: 3s;
         position: relative;
     }
     .navbar button[aria-expanded="true"] ~ .navbar-collapse ul li a:hover{
@@ -174,7 +177,7 @@ html, body {
         opacity: 80%;
         transition: 1s all ease-in-out;
         animation-name: menuShow;
-        animation-duration: 2s;
+        animation-duration: 10s;
         position: relative;
     }
     @keyframes menuShow {
@@ -192,7 +195,7 @@ html, body {
     }
 }
 @media (max-width: 576px) {
-    .myNav {
+    .v-myNav {
         border-left: none;
         border-right: none;
         margin-left: 0;

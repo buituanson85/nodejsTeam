@@ -107,4 +107,9 @@ app.get("/quoc-viet",function (req,res) {
     let PaceOne = {};
     res.render("craftman-viet");
 })
+app.get("/link",function (req,res) {
+    let PaceOneId = req.params.id;
+    let PaceOne = {};
+    res.render("fomrtemwork");
+})
 

@@ -226,10 +226,10 @@
         border: 0.05vw solid #171717;
     }
     .main_ourworld_content_left_bottom_content_span_learmore.text-nowrap{
-        font-size: 100%;
+        font-size: 1vw;
     }
     .main_ourworld_content_right_bottom_content_span_learmore.text-nowrap{
-        font-size: 100%;
+        font-size: 1vw;
     }
     /*    Bắt đầy thẻ last new*/
     .header_lastnew{
