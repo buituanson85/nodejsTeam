@@ -1,0 +1,291 @@
+html, body {
+    font-family: GothamPro, sans-serif;
+}
+.myNav{
+    border-left: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+    margin-left: 15px ;
+    margin-right: 15px ;
+    z-index: 9999;
+}
+.mybrand {
+    padding-left: 10px;
+}
+.navbar-nav-1 .nav-link {
+    margin-left: 5vw;
+}
+.nav-link-hover:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: red;
+    transition: 500ms width ease-in-out;
+}
+.nav-link-hover:hover:after{
+    width: 100%;
+}
+.navbar-nav-2 .nav-link {
+    margin-left: 5vw;
+
+}
+
+.nav-item .text-black{
+    color: black;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+
+/*Search Box*/
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+
+}
+.overlay-content{
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    /*margin-top: 30px;*/
+    margin: auto;
+    transition: 3s all ease-in-out;
+}
+.overlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.overlay .closebtn:hover{
+    color: #ccc;
+}
+.overlay input[type=text]{
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+}
+.overlay input[type=text]:hover{
+    background: #f1f1f1;
+}
+.overlay button{
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #dd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/*---Media Queries --*/
+@media (min-width: 1200px) {
+    .navbar-nav-1 .nav-link {
+        margin-left: 2vw;
+    }
+    .navbar-nav-2 .nav-link {
+        margin-left: 2vw;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar-nav-1 .nav-link {
+        margin-left: 2vw;
+    }
+    .navbar-nav-2 .nav-link {
+        margin-left: 2vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .myNav {
+        border-left: none;
+        border-right: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-family: Galaxie Copernicus Book, Arial, sans-serif;
+        font-style: italic;
+        text-transform: capitalize;
+    }
+    /*MENU TOGGLER*/
+
+    .navbar button[aria-expanded="true"] ~ .navbar-collapse ul li a{
+        display: block;
+        color: white;
+        animation-name: menuShow1;
+        animation-delay: 1s;
+        animation-duration: 1s;
+        position: relative;
+    }
+    .navbar button[aria-expanded="true"] ~ .navbar-collapse ul li a:hover{
+        display: block;
+        color: white;
+        text-shadow: 0.5px 0.5px white;
+    }
+    .navbar button[aria-expanded="true"] ~ .navbar-collapse ul li a:hover:after{
+        width: 0;
+    }
+    @keyframes menuShow1 {
+        0%{
+            left: -100%;
+
+        }
+        100%{
+            left: 0;
+
+        }
+    }
+    .navbar button[aria-expanded="true"] ~ .nav-link-hover:after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 1px;
+        background-color: red;
+        transition: 500ms width ease-in-out;
+    }
+    .navbar button[aria-expanded="true"] ~ .nav-link-hover:hover:after {
+        /*width: 100%;*/
+    }
+
+    .navbar button[aria-expanded="true"] ~ .navbar-collapse ul li a i{
+        display: none;
+    }
+    .navbar button[aria-expanded="true"] ~ #collapsingNavbar2{
+        background: #343a40;
+        opacity: 80%;
+        transition: 1s all ease-in-out;
+        animation-name: menuShow;
+        animation-duration: 2s;
+        position: relative;
+    }
+    @keyframes menuShow {
+        0%{
+            background: white;
+            left: -100%;
+
+        }
+        100%{
+            background: #343a40;
+            left: 0;
+            opacity: 80%;
+
+        }
+    }
+}
+@media (max-width: 576px) {
+    .myNav {
+        border-left: none;
+        border-right: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /*Chinh collapse the menu*/
+    .navbar-light .navbar-nav .nav-link {
+        font-family: Galaxie Copernicus Book, Arial, sans-serif;
+        font-style: italic;
+        text-transform: capitalize;
+        /*color: red;*/
+        /*display: block;*/
+    }
+    /*MENU TOGGLER*/
+
+    .navbar button[aria-expanded="true"] ~ .navbar-collapse ul li a{
+        display: block;
+        color: white;
+        animation-name: menuShow1;
+        animation-delay: 1s;
+        animation-duration: 1s;
+        position: relative;
+    }
+    .navbar button[aria-expanded="true"] ~ .navbar-collapse ul li a:hover{
+        display: block;
+        color: white;
+        text-shadow: 0.5px 0.5px white;
+    }
+    .navbar button[aria-expanded="true"] ~ .navbar-collapse ul li a:hover:after{
+        width: 0;
+    }
+    @keyframes menuShow1 {
+        0%{
+            left: -100%;
+
+        }
+        100%{
+            left: 0;
+
+        }
+    }
+    .navbar button[aria-expanded="true"] ~ .nav-link-hover:after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 1px;
+        background-color: red;
+        transition: 500ms width ease-in-out;
+    }
+    .navbar button[aria-expanded="true"] ~ .nav-link-hover:hover:after {
+        /*width: 100%;*/
+    }
+
+    .navbar button[aria-expanded="true"] ~ .navbar-collapse ul li a i{
+        display: none;
+    }
+    .navbar button[aria-expanded="true"] ~ #collapsingNavbar2{
+        background: #343a40;
+        transition: 1s all ease-in-out;
+        animation-name: menuShow;
+        animation-duration: 2s;
+        position: relative;
+    }
+    @keyframes menuShow {
+        0%{
+            background: white;
+            left: -100%;
+
+        }
+        100%{
+            background: #343a40;
+            left: 0;
+
+        }
+    }
+
+
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

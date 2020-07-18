@@ -733,15 +733,20 @@ img{
 }
 
 .main_ourworld_content_right_bottom_content_partnerships{
-    color: #171717;
+    color: #171717!important;
     font-size: 2.4vw;
     min-font-size: 2.4vw;
     font-weight: bolder;
     margin-left: 10%;
 }
-
+.main_ourworld_content_right_bottom_content_partnerships:hover{
+    color: #171717;
+    text-decoration: none;
+    opacity: 5;
+}
 .main_ourworld_content_left_bottom_content_span{
     margin-left: 10%;
+    color: #171717;
 }
 
 .main_ourworld_content_right_bottom_content_span{
@@ -1352,5 +1357,384 @@ img{
     font-size: 10px;
 }
 
+
+/*Bắt đầu thẻ main_ourworld*/
+.main_ourworld{
+    width: 100%;
+    height: 100%;
+    padding: 4.6% 1.35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #171717;
+}
+@media (max-width: 900px) {
+    .main_ourworld{
+        flex-direction: column;
+        padding: 4.6% 3%;
+    }
+}
+.main_ourworld_content_left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-right: 0.8%;
+    position: relative;
+    margin-bottom: 5%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_left{
+        width: 100%;
+        padding-bottom: 20%;
+    }
+}
+.main_ourworld_content_right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 auto;
+    margin-left: 0.8%;
+    position: relative;
+    margin-bottom: 5%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_right{
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20%;
+    }
+}
+.main_ourworld_content_left_top{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100%;
+}
+.main_ourworld_content_right_top{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100%;
+
+}
+.main_ourworld_content_left_top img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: 1;
+}
+.main_ourworld_content_right_top img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.main_ourworld_content_left_bottom{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    color: #FFFFFF;
+    font-size: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    bottom: -8%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_left_bottom{
+        padding: 0 15%;
+        position: absolute;
+        left: 0;
+        bottom: 3%;
+        text-align: center;
+    }
+}
+.main_ourworld_content_right_bottom{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    color: #171717;
+    font-size: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    bottom: -8%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_right_bottom{
+        padding: 0 15%;
+        position: absolute;
+        left: 0;
+        bottom: 3%;
+        text-align: center;
+    }
+}
+.main_ourworld_content_left_bottom_main{
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+.main_ourworld_content_right_bottom_main{
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+.main_ourworld_content_left_bottom_content{
+    margin-top: 8%;
+}
+.main_ourworld_content_right_bottom_content{
+    margin-top: 8%;
+}
+.main_ourworld_content_left_bottom_content_craftsmanship{
+    color: #171717;
+    font-size: 250%;
+    font-weight: bolder;
+    margin-left: 10%;
+    text-decoration: none;
+}
+.main_ourworld_content_left_bottom_content_craftsmanship:hover{
+    color: #171717;
+    text-decoration: none;
+    opacity: 5;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_left_bottom_content_craftsmanship{
+        margin: 0;
+    }
+}
+.main_ourworld_content_right_bottom_content_partnerships{
+    color: #FFFFFF;
+    font-size: 250%;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_right_bottom_content_partnerships{
+        margin: 0;
+    }
+}
+.main_ourworld_content_left_bottom_content_span{
+    margin-left: 10%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_left_bottom_content_span{
+        font-size: 150%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+}
+.main_ourworld_content_right_bottom_content_span{
+    margin-left: 10%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_right_bottom_content_span{
+        font-size: 150%;
+        font-weight: 600;
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+}
+.main_ourworld_content_left_bottom_content_learmore{
+    margin-left: 10%;
+}
+
+@media (max-width: 900px) {
+    .main_ourworld_content_left_bottom_content_learmore{
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+}
+.main_ourworld_content_right_bottom_content_learmore{
+    margin-left: 10%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_right_bottom_content_learmore{
+        letter-spacing: 0.5vw;
+        margin: 0;
+    }
+}
+.main_ourworld_content_left_bottom_content_span_learmore{
+    border: 0.05vw solid #171717;
+    padding: 2% 6%;
+    background-color: #FFFFFF;
+    color: #171717;
+    display: inline-block;
+    position: relative;
+    transition: all 1.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.main_ourworld_content_left_bottom_content_span_learmore:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #cccccc;
+    /*-webkit-transform: translateX(100%);*/
+    /*transform: translateX(100%);*/
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.main_ourworld_content_left_bottom_content_span_learmore:hover:before {
+    opacity: 0.3;
+    width: 100%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_left_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 150%;
+    }
+}
+.main_ourworld_content_right_bottom_content_span_learmore{
+    border: 0.05vw solid #171717;
+    padding: 2% 6%;
+    background-color: #FFFFFF;
+    color: #171717;
+    display: inline-block;
+    position: relative;
+    transition: all 1.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.main_ourworld_content_right_bottom_content_span_learmore:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #cccccc;
+    /*-webkit-transform: translateX(100%);*/
+    /*transform: translateX(100%);*/
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.main_ourworld_content_right_bottom_content_span_learmore:hover:before {
+    opacity: 0.3;
+    width: 100%;
+}
+@media (max-width: 900px) {
+    .main_ourworld_content_right_bottom_content_span_learmore{
+        padding: 3% 35%;
+        font-weight: bolder;
+        font-size: 150%;
+    }
+}
+/*hết thẻ main_ourworld*/
+/*bắt đầu thẻ main music*/
+.main_music{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 4.6% 1.35%;
+    position: relative;
+    margin-bottom: 10%;
+}
+@media (max-width: 900px) {
+    .main_music{
+        padding: 4.6% 3% 10% 3%;
+    }
+}
+.main_music_top img{
+    z-index: 1;
+}
+.main_music_bottom{
+    width: 100%;
+    padding: 0 5%;
+    position: absolute;
+    left: 0;
+    bottom: -6%;
+}
+@media (max-width: 900px) {
+    .main_music_bottom{
+        text-align: center;
+        padding: 0 15%;
+        position: absolute;
+        left: 0;
+        bottom: -3%;
+    }
+}
+.main_music_bottom_main{
+    background-color: #FFFFFF;
+    z-index: 2;
+}
+.main_music_bottom_content{
+    width: 100%;
+    padding-top: 4%;
+    z-index: 1;
+}
+@media (max-width: 900px) {
+    .main_music_bottom_content{
+        padding-top: 5%;
+    }
+}
+.main_music_bottom_content_artmusic{
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 5%;
+}
+@media (max-width: 900px) {
+    .main_music_bottom_content_artmusic{
+        margin: 0;
+        font-size: 150%;
+        letter-spacing: 0.5vw;
+    }
+}
+.main_music_bottom_content_richardorlinski{
+    font-size: 250%;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 5%;
+}
+@media (max-width: 900px) {
+    .main_music_bottom{
+        margin: 0;
+        letter-spacing: 0.5vw;
+    }
+}
+@media (max-width: 900px) {
+    .main_music_bottom_content_link{
+        margin-top: 30px;
+    }
+}
+.main_music_bottom_content_link_learmore{
+    font-size: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 0.05vw solid #171717;
+    padding: 1% 3%;
+    margin-left: 5%;
+}
+@media (max-width: 900px) {
+    .main_music_bottom_content_link_learmore{
+        padding: 3% 32%;
+        font-weight: bolder;
+        font-size: 150%;
+        margin: 0;
+        border: 0.1vw solid #171717;
+    }
+}
+/*Hết main_music*/
 
 

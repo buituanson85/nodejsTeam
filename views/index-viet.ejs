@@ -1,0 +1,101 @@
+
+<!--Navigation-->
+<header>
+
+    <nav class="navbar navbar-light navbar-expand-md bg-white justify-content-md-center justify-content-start myNav">
+        <button onclick="OpenCollapse()" class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mybrand" href="#">HUBLOT</a>
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            <ul class="navbar-nav mx-auto text-md-center text-left navbar-nav-1">
+                <li class="nav-item">
+                    <a class="nav-link text-black nav-link-hover" href="#"><span>WATCHES</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black nav-link-hover" href="#">OUR WORLD</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-black nav-link-hover" href="#">BOUTIQUES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black nav-link-hover" href="#">HUBLOTISTA</a>
+                </li>
+
+            </ul>
+            <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap navbar-nav-2">
+                <li class="nav-item"><a class="nav-link text-black" href="#"><i class='far fa-heart'></i></a> </li>
+                <li class="nav-item"><a class="nav-link text-black openBtn" href="#" onclick="OpenSearch()"><i class="fa fa-search"></i></a> </li>
+                <li class="nav-item"><a class="nav-link text-black" href="#"><i class="fab fa-opencart"></i></a> </li>
+            </ul>
+        </div>
+        </div>
+        <div id="myOverlay" class="overlay">
+            <span class="closebtn" onclick="CloseSearch()" title="Close Search">x</span>
+            <div class="overlay-content">
+                <form action="">
+                    <input type="text" placeholder="Search for..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+
+
+<!--Watches Slides-->
+<div class="section-main">
+    <picture>
+        <img src="img/home/background-millennial-pink-1.jpg" alt="Background" class="section-main-picture" style="background-attachment: fixed">
+    </picture>
+    <img class="section-main-watches" src="img/home/watch%20pink.png" alt="Watch" >
+    <div class="container-fluid section-main-caption">
+        <div class="row">
+            <div class="col-xs-2 col-md-4 col-lg-4">
+                <div class="text-white text-responsive">
+                    <h6 class="text-responsive">AVAILABLE NOW</h6>
+                    <h1 class="font-weight-bold section-big-text text-responsive">BIG BANG MILLENNIAL PINK</h1>
+                    <a href="#" class="text-responsive text-white cap-hover">DISCOVER MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--&lt;!&ndash;Three Button in One Row&ndash;&gt;-->
+<!--<div class="main-btn">-->
+<!--    <div class="container-fluid bg-dark">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-4 myBtn">-->
+<!--                <button type="button" class="btn btn-light btn-lg bg-light text-black text-center btn-1" id="btn-1-1">FIND YOUR HUBLOT WATCH</button>-->
+<!--            </div>-->
+<!--            <div class="col-lg-4 myBtn">-->
+<!--                <button type="button" class="btn btn-outline-light btn-lg text-center btn-1" id="btn-1-2">FIND A BOUTIQUE</button>-->
+<!--            </div>-->
+<!--            <div class="col-lg-4 myBtn">-->
+<!--                <button type="button" class="btn btn-outline-light btn-lg text-center btn-1" id="btn-1-3">FIND YOUR STRAP</button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="libs/libs/bootstrap4/js/bootstrap4js.js"></script>
+
+<!--Script MENU-->
+<script type="text/javascript">
+
+    function OpenSearch() {
+        $("#myOverlay").fadeIn(1000);
+    }
+    function CloseSearch() {
+        $("#myOverlay").fadeOut(0);
+    }
+
+</script>

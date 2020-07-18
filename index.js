@@ -102,4 +102,9 @@ app.get("/hai-nam",function (req,res) {
     let PaceOne = {};
     res.render("try");
 })
+app.get("/quoc-viet",function (req,res) {
+    let PaceOneId = req.params.id;
+    let PaceOne = {};
+    res.render("craftman-viet");
+})
 
