@@ -1,0 +1,50 @@
+[
+  {
+    "id":1,
+    "name":"BIG BANG MILLENNIAL PINK",
+    "label":"MILLENNIAL PINK 42MM",
+    "description":"More than a watch, it is a state of mind.",
+    "area": "CHF 19,900",
+    "image": "../imgs/e-titanium.png"
+  },
+  {
+    "id":2,
+    "name":"BIG BANG E TITANIUM",
+    "label":"E TITANIUM 42MM",
+    "description":"A fusion between tradition and innovation, cutting edge materials and the latest digital technology",
+    "area": "CHF 4,900",
+    "image": "../imgs/Titanium-on.png"
+  },
+  {
+    "id":3,
+    "name":"CLASSIC FUSION TITANIUM",
+    "label":"TITANIUM 42mm",
+    "description":"Elegance reinvented.",
+    "area": "CHF 6,400",
+    "image": "../imgs/millennial-pink.png"
+  },
+  {
+    "id":4,
+    "name":"SPIRIT OF BIG BANG TITANIUM BLUE",
+    "label":"TITANIUM BLUE 45mm",
+    "description":"A perfect fusion between tradition and innovation – in an entirely skeletonized design.",
+    "area": "CHF 20,900",
+    "image": "../imgs/titanium-blue.png"
+  },
+  {
+    "id":5,
+    "name":"MP TECHFRAME FERRARI TOURBILLON CHRONOGRAPH SAPPHIRE WHITE GOLD",
+    "label":"TECHFRAME FERRARI TOURBILLON CHRONOGRAPH SAPPHIRE WHITE GOLD",
+    "description":"Transparency, radiance and robustness in unique shades.",
+    "area": "CHF 170,000",
+    "image": "../imgs/sapphire-white.png"
+  },
+  {
+    "id":6,
+    "name":"SPIRIT OF BIG BANG KING GOLD",
+    "label":"KING GOLD",
+    "description":"A perfect fusion between tradition and innovation – in an entirely skeletonized design.",
+    "area": "CHF 40,900",
+    "image": "../imgs/rainbow-king.png"
+  }
+]

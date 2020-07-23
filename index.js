@@ -15,7 +15,7 @@ app.get("/",function (req,res) {
     if(city === undefined){
         city = "Hanoi,vietnam";
     }
-    res.render("home",{
+    res.render("homes",{
         counter: counter,
         city:city
     });
@@ -24,9 +24,9 @@ app.get("/",function (req,res) {
 app.get("/about-us",function (req,res) {
     res.send("Gioi thieu ve chung toi");
 });
-const fs = require("fs");
+const fss = require("fs");
 app.get("/danh-sach-thanh-pho",function (req,res) {
-    let data = fs.readFileSync("data/thanhpho.json","utf-8");
+    let data = fss.readFileSync("data/thanhpho.json","utf-8");
     let cities = JSON.parse(data);
     res.render("cities",{
         cities:cities
@@ -36,7 +36,7 @@ app.get("/danh-sach-thanh-pho",function (req,res) {
 app.get("/thanh-pho/:id",function (req,res) {
     let cityId = req.params.id;
     let city = {};
-    let data = fs.readFileSync("data/thanhpho.json","utf-8");
+    let data = fss.readFileSync("data/thanhpho.json","utf-8");
     let cities = JSON.parse(data);
     cities.map(function (e) {
         if(e.id == cityId){
@@ -111,5 +111,29 @@ app.get("/link",function (req,res) {
     let PaceOneId = req.params.id;
     let PaceOne = {};
     res.render("fomrtemwork");
+})
+
+const fs = require("fs");
+app.get("/danh-sach-san-pham",function (req,res) {
+    let data = fs.readFileSync("data/sanpham.json","utf-8");
+    let dssp = JSON.parse(data);
+    res.render("dssp",{
+        dssp:dssp
+    })
+});
+
+app.get("/san-pham/:id",function (req,res) {
+    let spId = req.params.id;
+    let sp = {};
+    let data = fs.readFileSync("data/sanpham.json","utf-8");
+    let dssp = JSON.parse(data);
+    dssp.map(function (e) {
+        if(e.id == spId){
+            sp = e;
+        }
+    });
+    res.render("sp",{
+        sp:sp
+    });
 })
 
